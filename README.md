@@ -1,5 +1,26 @@
 # go-nlp-utils 
-(based on go-nlp-tools`)
+
+
+The idea of go-nlp-utils is to provide a fast go-lang based nlp toolkit for researchers which provides the most commonly used features of NLTK
+and other nPL toolkits, but in production-ready computational performance. 
+Things that can be executed in parallel mode (like POS tagging for independent sentences) should be processe in go-routines in parallel to utilize CPU cores efficiently.
+
+
+### Currently supported languages
+* English
+* Russian
+
+
+### General plan for implementation
+* Tokenizer(s)
+* POS tagger(s)
+* Syntax Parsing 
+* WordNet interface
+* Corpuses interface (like Brown corpus in NLTK)
+* Data Downloader
+
+## Files and utils list
+
  
 **errors.go** contains constatns for errors to return.  
 **tagger.go** librarary src for set of differently implemented taggers  
