@@ -1,8 +1,8 @@
-# go-nlp-utils 
+# nlp4go
 
 
-The idea of go-nlp-utils is to provide a fast go-lang based nlp toolkit for researchers which provides the most commonly used features of NLTK
-and other nPL toolkits, but with production-ready computational performance. 
+The idea of nlp4go is to provide a fast go-lang based nlp toolkit for researchers and developers which provides the most commonly used features of NLTK
+and other NPL toolkits, but with production-ready computational performance. 
 Things that can be executed in parallel mode (like POS tagging for independent sentences) should be processe in go-routines in parallel to utilize CPU cores efficiently.
 
 
