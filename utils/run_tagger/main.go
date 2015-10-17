@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/korobool/go-nlp-tools"
+	"github.com/korobool/nlp4go"
 	"os"
 	"strings"
 )

@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	//"github.com/davecheney/profile"
-	"github.com/korobool/go-nlp-tools"
+	"github.com/korobool/nlp4go"
 	"io"
 	"os"
 	"path/filepath"
@@ -33,9 +33,9 @@ func main() {
 		return nil
 	}
 
-	filepath.Walk("/home/demyan/ontonotes", walkFn)
+	filepath.Walk("/home/oleksandr/ontonotes", walkFn)
 
-	posTagger, _ := gonlp.NewPerceptronTagger(nil, false)
+	posTagger, _ := gonlp.NewPerceptronTagger(nil, false, "")
 	posTagger.Train(sentences, "avp_model.gob", 5)
 
 }

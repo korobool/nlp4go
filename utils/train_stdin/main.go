@@ -4,7 +4,7 @@ import (
 	"fmt"
 	//"github.com/davecheney/profile"
 	"bufio"
-	"github.com/korobool/go-nlp-tools"
+	"github.com/korobool/nlp4go"
 	"os"
 	"regexp"
 )
@@ -14,7 +14,7 @@ func main() {
 
 	sentences := []gonlp.WordsTags{}
 
-	posTagger, err := gonlp.NewPerceptronTagger(nil, false)
+	posTagger, err := gonlp.NewPerceptronTagger(nil, false, "")
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "posTagger:", err)
 	}
