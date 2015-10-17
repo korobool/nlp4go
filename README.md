@@ -2,7 +2,7 @@
 
 
 The idea of go-nlp-utils is to provide a fast go-lang based nlp toolkit for researchers which provides the most commonly used features of NLTK
-and other nPL toolkits, but in production-ready computational performance. 
+and other nPL toolkits, but with production-ready computational performance. 
 Things that can be executed in parallel mode (like POS tagging for independent sentences) should be processe in go-routines in parallel to utilize CPU cores efficiently.
 
 
