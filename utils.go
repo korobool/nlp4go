@@ -1,8 +1,15 @@
 package gonlp
 
 import (
+	"bufio"
+	"fmt"
+	"io"
 	"math"
+	"os"
+	"path/filepath"
+	"regexp"
 	"sort"
+	"strings"
 )
 
 type Pair struct {
@@ -67,4 +74,73 @@ func Round(val float64, roundOn float64, places int) (newVal float64) {
 	}
 	newVal = round / pow
 	return
+}
+
+func ParseOntonotes(ontoPath string, outPath string) error {
+
+	outFile, err := os.Create(outPath)
+	if err != nil {
+		return err
+	}
+	defer outFile.Close()
+
+	writer := bufio.NewWriter(outFile)
+	defer writer.Flush()
+
+	walkFn := func(path string, f os.FileInfo, err error) error {
+
+		if strings.HasSuffix(path, ".parse") {
+			file, _ := os.Open(path)
+			defer file.Close()
+
+			err := parseFile(file, writer)
+			if err != nil {
+				return err
+			}
+		}
+		return nil
+	}
+
+	err = filepath.Walk(ontoPath, walkFn)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func parseFile(reader io.Reader, writer *bufio.Writer) error {
+
+	sent := []byte{}
+	re := regexp.MustCompile(`\s+`)
+
+	scanner := bufio.NewScanner(reader)
+	scanner.Split(bufio.ScanLines)
+
+	for scanner.Scan() {
+		if scanner.Text() != "" {
+			sent = append(sent, scanner.Bytes()...)
+			continue
+		}
+		if len(sent) > 0 {
+			s := re.ReplaceAllLiteralString(string(sent), " ")
+			fmt.Fprintln(writer, parseSent(s))
+		}
+		sent = []byte{}
+	}
+	err := scanner.Err()
+
+	return err
+}
+
+func parseSent(tree string) string {
+
+	byteStr := []byte("")
+	re := regexp.MustCompile(`\(([^\s\(\)]+) ([^\s\(\)]+)\)`)
+
+	match := re.FindAllStringSubmatch(tree, -1)
+	for _, pair := range match {
+		str := fmt.Sprintf("(%s %s)", pair[1], pair[2])
+		byteStr = append(byteStr, []byte(str)...)
+	}
+	return string(byteStr)
 }

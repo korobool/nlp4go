@@ -12,7 +12,7 @@ func main() {
 
 	tokenizer := gonlp.NewSplitTokenizer(" ")
 
-	posTagger, err := gonlp.NewPerceptronTagger(tokenizer, true)
+	posTagger, err := gonlp.NewPerceptronTagger(tokenizer, true, "")
 
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "posTagger:", err)

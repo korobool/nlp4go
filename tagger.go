@@ -136,7 +136,7 @@ func (ap *AveragedPerceptron) AverageWeights() {
 	return
 }
 
-func NewPerceptronTagger(tokenizer Tokenizer, load bool) (*PerceptronTagger, error) {
+func NewPerceptronTagger(tokenizer Tokenizer, load bool, path string) (*PerceptronTagger, error) {
 
 	tagger := PerceptronTagger{}
 	tagger.Model = NewAveragedPerceptron()
@@ -145,10 +145,12 @@ func NewPerceptronTagger(tokenizer Tokenizer, load bool) (*PerceptronTagger, err
 	tagger.tokenizer = tokenizer
 
 	if load {
-		err := tagger.loadGob(MODEL_GOB_PATH)
+		if path == "" {
+			path = MODEL_GOB_PATH
+		}
+		err := tagger.loadGob(path)
 		if err != nil {
-			fmt.Println(err)
-			os.Exit(1)
+			return nil, err
 		}
 	}
 
