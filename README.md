@@ -15,6 +15,7 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 * Tokenizer(s)
 * POS tagger(s)
 * Syntax Parsing 
+ * We need a complete rules set for syntax parsing
 * WordNet interface
 * Corpuses interface (like Brown corpus in NLTK)
 * Data Downloader
