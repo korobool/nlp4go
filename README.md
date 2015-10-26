@@ -13,7 +13,12 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 
 ### General plan for implementation
 * Tokenizer(s)
+ * Tree bank
+ * regex
+ * split
+ * investigate alternatives
 * POS tagger(s)
+ * Percepton 
 * String abstraction to imporove performance on unicode
 * Immutable Article abstraction (should come up with good interface) 
  * Article abstraction itself (should come up with good interface) 
@@ -21,6 +26,8 @@ Things that can be executed in parallel mode (like POS tagging for independent s
  * Article Meta Info storage (should come up with good interface) 
 * Syntax Parsing 
  * We need a complete rules set for syntax parsing
+ * FSM based parser
+ * Investigate alternatives
 * WordNet interface
 * Corpuses interface (like Brown corpus in NLTK)
 * Data Downloader
