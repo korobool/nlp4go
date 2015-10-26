@@ -17,7 +17,7 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 * String abstraction to imporove performance on unicode
 * Immutable Article abstraction (should come up with good interface) 
  * Article abstraction itself (should come up with good interface) 
- * Handlers which can cache NLP algorithm resul in HadlerResulr (or something similar) (should come up with good interface) 
+ * Handlers which can cache NLP algorithm resul in HandlerResulr (or something similar) (should come up with good interface) 
  * Article Meta Info storage (should come up with good interface) 
 * Syntax Parsing 
  * We need a complete rules set for syntax parsing
