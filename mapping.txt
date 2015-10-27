@@ -1,0 +1,57 @@
+CC: 'C'
+CD: 'Q'
+DT: 'NxA,Dem,Sg'
+EX: 'B'
+FW: 'latin'
+IN: 'P'
+JJ: 'A'
+JJR: 'A,Comp'
+JJS: 'A,Sup'
+HYPH: punct
+LS: 'Q' 
+MD: 'Vmod'
+NN: 'N,Sg,Mass'
+NNS: 'N,Pl'
+NNP: 'N,Prop,Sg'
+NNPS: 'N,Prop,Pl'
+PRP: 'Nx'
+PRP$: 'NxA,Poss'
+PDT: 'A'
+POS: 'GenS'
+RB: 'B'
+RBR: 'B,Comp'
+RBS: 'B,Sup'
+RP: 'Y' 		
+SYM: punct
+TO: 'P'
+UH: 'Tint'
+VB: 'V'
+VBD: 'V,Pret'
+VBG: 'V,Ing'
+VBN: 'V,Wpr'
+VBP: 'V,Pres,Sg'
+VBZ: 'V,Pres,P3,Sg'
+WDT: 'NxA'
+WP: 'NxA,Nom'
+WP$: 'NxA,Poss'
+WRB: 'B'
+(: punct
+): punct
+,: punct
+.: punct
+':': punct
+
+_______
+
+ADD: email address
+AFX: affixes occurring on their own
+CODE: statements added to make it clear where the breaks between speakers go
+NFP:
+XX: less interpretable de-identified phrases
+X:
+-NONE:
+-LRB:
+-RRB:
+-RSB:
+-LSB:
+
