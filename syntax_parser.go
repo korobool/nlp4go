@@ -5,17 +5,14 @@ import (
 	// "reflect"
 )
 
+// Recursive Descent Parsing
+// Shift-Reduce Parsing
+// The Left-Corner Parser
+// Well-Formed Substring Tables
+
 type TaggedToken struct {
 	Token string
 	Tag   string
-}
-
-type Leaves interface {
-}
-
-type Tree struct {
-	Type   string
-	Leaves []Leaves
 }
 
 type SyntaxParser struct {
@@ -57,25 +54,23 @@ func (sp *SyntaxParser) Parse(taggedTokens []TaggedToken) (Tree, error) {
 }
 
 func (sp *SyntaxParser) PrettyPrint(tree Tree, level int) {
-	var tabs string
 
-	for i := 0; i < level; i++ {
-		tabs += "    "
-	}
-	fmt.Println(tabs, tree.Type)
-
+	fmt.Println(getTabs(level), tree.Type)
 	level += 1
 	for _, value := range tree.Leaves {
 		switch leaf := value.(type) {
 		case TaggedToken:
-			// fmt.Printf(fmt.Sprintf("%%%ds\n", 5), ".")
-			tabs = ""
-			for i := 0; i < level; i++ {
-				tabs += "    "
-			}
-			fmt.Println(tabs, leaf)
+			fmt.Println(getTabs(level), leaf)
 		case Tree:
 			sp.PrettyPrint(leaf, level)
 		}
 	}
+}
+
+func getTabs(level int) string {
+	tabs := ""
+	for i := 0; i < level; i++ {
+		tabs += "    "
+	}
+	return tabs
 }

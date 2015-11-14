@@ -1,0 +1,138 @@
+# 1. Починаємо з ['A']:  
+# 
+#
+# 'B-A: B A => ADJP'
+- 'A: A => A_'
+- 'V_Ing_looks_like_ADJP: V(Ing) => A_'
+- 'B-ADJP: B A_ => ADJP'
+- 'A_looks_like_ADJP: A_ => ADJP'
+#
+#
+# 2. Якщо знайшли Nx, тоді одразу присвоємо NP (PN_looks_like_NP):
+#    можна позначити, що містить займенник NPnx (чи вони потрібні для сутностей?)
+#
+#        Nx  => NP  
+#
+- 'PNSub_looks_like_NP: Nx(num, Pers, Nom, person) => NP(num, Nom, person)'
+- 'PNObj_looks_like_NP: Nx(num, Pers, Obj, person) => NP(num, Obj, person)'
+- 'NxA_looks_like_NP: NxA(Poss, Pred) => NP(Poss, Pred)'
+#                     "That bag is mine. Mine is better."
+#
+#
+# 3. Знайшли ['N']:
+#
+#   a) якщо одразу перед N стоїть один з даних POS-тегів: V, Vbe, Vmod, B, Tint, Nx, Y, P, C,
+#      тоді одразу присвоємо NP (N_looks_like_NP):
+#        
+#
+# 'qV-N_looks_like_NP-1: ?V N(kind, num) => NP(kind, num)'
+#- 'qVbe-N_looks_like_NP-1: ?Vbe N(kind, num) => NP(kind, num)'
+#- 'qVmod-N_looks_like_NP-1: ?Vmod N(kind, num) => NP(kind, num)'
+#- 'qB-N_looks_like_NP-1: ?B N(kind, num) => NP(kind, num)'
+#- 'qTint-N_looks_like_NP-1: ?Tint N(kind, num) => NP(kind, num)'
+#- 'qNx-N_looks_like_NP-1: ?Nx N(kind, num) => NP(kind, num)'
+#- 'qY-N_looks_like_NP-1: ?Y N(kind, num) => NP(kind, num)'
+#- 'qP-N_looks_like_NP-1: ?P N(kind, num) => NP(kind, num)'
+#- 'qC-N_looks_like_NP-1: ?C N(kind, num) => NP(kind, num)'
+#
+#
+#
+- 'N_looks_like_NP-1: N(kind, num) => N_(kind, num)'
+- 'N_looks_like_NP-2: N N_(kind, num) => N_(kind, num)'
+- 'NMass_looks_like_NP: N_(Mass, Sg) => NP(Mass, Sg)'
+- 'NUnc_looks_like_NP: N_(Unc, Sg) => NP(Unc, Sg)'  
+- 'NProp_looks_like_NP: N_(Prop, num) => NP(Prop,num)'
+- 'NPl_looks_like_NP: N_(Ncom, Pl) => NP(Ncom, Pl)'
+- 'N_looks_like_NP: N_(kind, num) => NP(kind, num)'
+#
+#
+#    b) якщо одразу перед N йде ADJP:
+#_
+#        ADJP N_ => N_A_ 
+#        ADJP N_A_ => N_A_  
+#
+- 'ADJP-N-1: ADJP N_(kind, num) => N_A_(kind, num)'
+- 'ADJP-N-2: ADJP N_A_(kind, num) => N_A_(kind, num)'
+- 'N_A_looks_like_NP: N_A_(kind, Pl) => NP(kind, Pl)'
+#
+#    c) якщо одразу перед N йде один з даних POS-тегів: Tart, NxA:
+#
+#        Tart N => NP
+#        Tart N_ => NP
+#        Tart N_A_ => NP
+#        NxA N  => NP
+#        NxA N_  => NP
+#        NxA N_A_  => NP
+#
+- 'qTart-N-1: Tart N_(kind, num) => NP(kind, num)'
+- 'qTart-N-2: Tart N_A_(kind, num) => NP(kind, num)'
+#
+- 'qNxA-N-1: NxA(Dem, Sg) N_(kind, Sg)  => NP(kind, Sg)'
+- 'qNxA-N-2: NxA(Dem, Sg) N_A_(kind, Sg)  => NP(kind, Sg)'
+- 'qNxA-N-3: NxA(Dem, Pl) N(kind, Pl)  => NP(kind, Pl)'
+- 'qNxA-N-4: NxA(Dem, Pl) N_(kind, Pl)  => NP(kind, Pl)'
+- 'qNxA-N-5: NxA(Dem, Pl) N_A_(kind, Pl)  => NP(kind, Pl)'
+- 'qNxA-N-6: NxA(Poss) N_(kind, num)  => NP(kind, num)'
+- 'qNxA-N-7: NxA(Poss) N_A_(kind, num)  => NP(kind, num)'
+#
+#    d) якщо одразу перед N йде Q, тоді (Q_N_looks_like_N_Q_):
+#
+#        Q N => N_Q_ 
+#        Q N_ => N_Q_
+#        Q N_A_ => N_Q_
+#      
+#        All cardinal numbers determine plural nouns except "one".  Mark it! agreement=singular
+#
+- 'Q_N_looks_like_N_Q_-1: Q N_(kind, Pl) => N_Q_(kind, Pl)'
+- 'Q_N_looks_like_N_Q_-2: Q N_A_(kind, Pl) => N_Q_(kind, Pl)'
+- 'Q_N_looks_like_NP: N_Q_(kind, Pl) => NP(kind, Pl)'
+#
+#    e) якщо одразу перед N йде Aq, тоді (Aq_N_looks_like_N_Aq_):
+#
+#        Aq N => N_Aq_ 
+#        Aq N_ => N_Aq_
+#        Aq N_A_ => N_Aq_
+#
+- 'Aq_N_looks_like_N_Aq_-21 Aq N_(kind, num) => N_Aq_(kind, num)'
+- 'Aq_N_looks_like_N_Aq_-2: Aq N_A_(kind, num) => N_Aq_(kind, num)'
+#
+#    f) якщо одразу перед N_Q" йде Aq, тоді (Aq_N_Q__looks_like_N_AqQ_):
+#
+#        Aq N_Q_ => N_AqQ_ 
+#
+- 'Aq_N_Q__looks_like_N_AqQ_: Aq N => N_Aq_'
+#
+#    g)
+#
+#        Tart N_Q_     => NP 
+#        Tart N_Aq_    => NP 
+#        Tart N_AqQ_   => NP 
+#        NxA N_Q_      => NP 
+#        NxA N_Aq_     => NP 
+#        NxA N_AqQ_    => NP 
+#
+- 'Tart-NP-1: qTart N_Q_     => NP'
+- 'Tart-NP-2: qTart N_Aq_    => NP'
+- 'Tart-NP-3: qTart N_AqQ_   => NP'
+#
+- 'qNxA-NP-1: qNxA N_Q_      => NP'
+- 'qNxA-NP-2: qNxA N_Aq_     => NP'
+- 'qNxA-NP-3: qNxA N_AqQ_    => NP'
+#
+#
+#
+- 'qP_NP_looks_like_PP: P NP  => PP'
+- 'P_NxAPred_looks_like_PP: P NxA(Pred) => PP(Pred)'
+#                  
+#                 A friend of mine.
+#
+- 'NP_PP_looks_like_NP: NP PP => NP'
+#    h)
+#
+#        ADJP C ADJP => ADJP
+#        NP C NP => NP
+#
+#- 'ADJP-C-ADJP: ADJP C ADJP => A'
+#- 'N-C-N: N C N => N'
+#- 'N-C-N_: N C N_ => N_'
+#
