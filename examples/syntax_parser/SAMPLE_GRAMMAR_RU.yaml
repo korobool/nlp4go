@@ -1,0 +1,124 @@
+# 1. операции над A
+# 
+# a)
+# 
+- 'A: A(num, case, gender) => ADJP(num, case, gender)'
+- 'Aq: Aq(num, case, gender) => ADJP(num, case, gender)'
+- 'B_A: B A(num, case, gender) => ADJP(num, case, gender)'
+- 'B_ADJP: B ADJP(num, case, gender) => ADJP(num, case, gender)'
+# 
+# b)
+# 
+- 'ADJP_ADJP: ADJP(num, case, gender) ADJP(num, case, gender) => ADJP(num, case, gender)'
+- 'ADJP_C_ADJP: ADJP(num, case, gender) C ADJP(num, case, gender) => ADJP(num, case, gender)'
+- 'ADJP_punct_ADJP: ADJP(num, case, gender) punct ADJP(num, case, gender) => ADJP(num, case, gender)'
+# 
+# c) подготовка к склеиванию особого оборота («две последние страницы»)
+# 
+#     Q(Nom,f) ADJP(Pl,Nom) => Q_(Nom)
+#     Q(Acc,f) ADJP(Pl,Acc) => Q_(Acc)
+# 
+- 'Q_ADJP_Nom: Q(Nom,f) ADJP(Pl,Nom) => Q_(Nom,f)'
+- 'Q_ADJP_Acc: Q(Acc,f) ADJP(Pl,Acc) => Q_(Acc,f)'
+# 
+# 2. Nx сразу становится именной группой
+# 
+#     Nx => NP
+# 
+- 'Nx: Nx => NP'
+# 
+# 3. операции над N и более крупными составляющими
+# 
+# a)
+# 
+#     N(num, case) => NP(num, case) после тегов Comp, V, I, Wbr, G, B, Nx, Z, P, C, Y, Tint
+# 
+#- 'qComp_N: ?Comp N(num, case, gender) => NP(num, case, gender)'
+#- 'qV_N: ?V N(num, case, gender) => NP(num, case, gender)'
+#- 'qI_N: ?I N(num, case, gender) => NP(num, case, gender)'
+#- 'qWbr_N: ?Wbr N(num, case, gender) => NP(num, case, gender)'
+#- 'qG_N: ?G N(num, case, gender) => NP(num, case, gender)'
+#- 'qB_N: ?B N(num, case, gender) => NP(num, case, gender)'
+#- 'qNx_N: ?Nx N(num, case, gender) => NP(num, case, gender)'
+#- 'qZ_N: ?Z N(num, case, gender) => NP(num, case, gender)'
+#- 'qP_N: ?P N(num, case, gender) => NP(num, case, gender)'
+#- 'qC_N: ?C N(num, case, gender) => NP(num, case, gender)'
+#- 'qY_N: ?Y N(num, case, gender) => NP(num, case, gender)'
+#- 'qTint_N: ?Tint N(num, case, gender) => NP(num, case, gender)'
+# 
+# c)
+# 
+#     ADJP(num, case) N(num, case) => N_A_(num, case)
+#     ADJP(num, case) N_A_(num, case) => N_A_(num, case)
+# 
+- 'ADJP_N: ADJP(num, case, gender) N(num, case, gender) => N_A_(num, case)'
+- 'ADJP_N_A_: ADJP(num, case, gender) N_A_(num, case, gender) => N_A_(num, case, gender)'
+- 'A_N_A_: A(num, case, gender) N_A_(num, case, gender) => N_A_(num, case, gender)'
+- 'B_NA: B N_A_(num, case, gender) => N_A2(num, case, gender)'
+# 
+# d)
+# 
+- 'NxA_N: NxA(num, case) N(num, case) => NP(num, case)'
+- 'NxA_N_A_: NxA(num, case) N_A_(num, case) => NP(num, case)'
+# 
+# e)
+# 
+- 'QCQ: Q(case) C Q(case) => Q(case)'
+
+- 'Q__Nom_N_Gen: Q_(Nom) N(Sg,Gen) => N_Q_(Nom)'
+- 'Q__Acc_N_Gen: Q_(Acc) N(Sg,Gen) => N_Q_(Acc)'
+- 'Q_N_Q_: Q(case) N_Q_(case) => N_Q_(case)'
+
+#
+# 
+- 'Q_Nom_N_Gen: Q(Nom) N(Gen) => N_Q_(Nom)'
+- 'Q_Gen_N_PlGen: Q(Gen) N(Pl,Gen) => N_Q_(Gen)'
+- 'Q_Dat_N_PlDat: Q(Dat) N(Pl,Dat) => N_Q_(Dat)'
+- 'Q_Acc_N_Gen: Q(Acc) N(Gen) => N_Q_(Acc)'
+- 'Q_Ins_N_PlIns: Q(Ins) N(Pl,Ins) => N_Q_(Ins)'
+- 'Q_Prp_N_PlPrp: Q(Prp) N(Pl,Prp) => N_Q_(Prp)'
+#
+- 'Q_Gen_N_A__PlGen: Q(Gen) N_A_(Pl,Gen) => N_Q_(Gen)'
+- 'Q_Dat_N_A__PlDat: Q(Dat) N_A_(Pl,Dat) => N_Q_(Dat)'
+- 'Q_Ins_N_A__PlIns: Q(Ins) N_A_(Pl,Ins) => N_Q_(Ins)'
+- 'Q_Prp_N_A__PlPrp: Q(Prp) N_A_(Pl,Prp) => N_Q_(Prp)'
+
+
+# f)
+# 
+- 'ADJP_N_Q_: ADJP(Pl, case) N_Q_(case) => ADJ_Q_(Pl, case)'
+- 'ADJP_ADJ_Q_: ADJP(Pl, case) ADJ_Q_(Pl, case) => ADJ_Q_(Pl, case)'
+# 
+# g)
+# 
+- 'ADJ_Q_: ADJ_Q_(num, case) => NP(num, case)'
+- 'NQ_NP: N_Q_(num, case) => NP(num, case)'
+- 'NA_NP: N_A_(num, case) => NP(num, case)'
+# 
+# h)
+# 
+- 'NP_C_NP: NP(case) C NP(case) => NP(Pl, case)'
+- 'N_C_N: N(case) C N(case) => N_N(Pl, case)' 
+- 'NA_C_NA: N_A_(num, case, gender) C N_A_(num, case, gender) => N_A_(num, case, gender)'
+- 'NN_NP: N_N(num, case) => NP(num, case)'
+
+# Выделение NER’ов: «известный писатель Иванов» и «группа Beatles»
+#- 'NN_Name_Surname: N(num,case,gender,_Ttl) N(num,case,gender,_Ttl) => N(num,case,gender,_Ttl)'
+#- 'NN_Ivanov: N(num,case,gender) N(_Ttl) => N(num,case,gender)'
+- 'NN_Beatles: N(num,case,gender,Ina) latin => N_A_(num,case,gender,Ina)'
+
+# i)
+
+- 'N_NA_NG: N(num, case, gender) N_A_(Gen) => N(num, case,gender)'
+- 'N_NQ_NG: N(num,case, gender) N_Q_(Gen) => N(num,case,gender)'
+- 'N_NG_NG: N(num, case, gender) N(Gen) => N(num, case,gender)'
+
+- 'NA_NA_NG: N_A_(num,case, gender) N_A_(Gen) => N_A_(num,case,gender)'
+- 'NA_NQ_NG: N_A_(num,case, gender) N_Q_(Gen) => N_A_(num,case,gender)'
+- 'NA_NG_NG: N_A_(num,case, gender) N(Gen) => N_A_(num,case,gender)'
+
+- 'NQ_NQ_NQ: N_Q_(num,case, gender) N_Q_(Gen) => N_Q_(num,case, gender)'
+- 'NQ_NA_NQ: N_Q_(num,case, gender) N_A_(Gen) => N_Q_(num,case, gender)'
+- 'NQ_NG_NQ: N_Q_(num,case, gender) N(Gen) => N_Q_(num,case, gender)'
+
+
