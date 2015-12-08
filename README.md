@@ -44,6 +44,7 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 **utils/train_stdin** trains model using input per line sentences (in (tag word) format) from stdin  
 **utils/tags** reads regular sentences from stdin and ouputs words with POS and positions  
 
+**tokenize/** experimental package for tokenizers  
 
 POS tagger should be trained. For research we use ontonotes v.5 and provide a reader for it. Its output can be used to train a pos-tagger:
 
