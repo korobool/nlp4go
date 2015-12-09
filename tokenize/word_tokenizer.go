@@ -1,6 +1,8 @@
 package tokenize
 
-import "unicode"
+import (
+	"unicode"
+)
 
 /*
 	Mimics TreeBank word tokenizer without using mass of regexps
@@ -41,10 +43,12 @@ func (t *TBWordTokenizer) Tokenize(s []rune) []*SentenceToken {
 	tokens := make([]*SentenceToken, 0, 50)
 
 	commitPrepared := func(posEnd int) {
-		preparedToken.PosEnd = posEnd
-		preparedToken.Text = s[preparedToken.PosStart:posEnd]
-		isTokenPrepared = false
-		tokens = append(tokens, preparedToken)
+		if isTokenPrepared {
+			preparedToken.PosEnd = posEnd
+			preparedToken.Text = s[preparedToken.PosStart:posEnd]
+			isTokenPrepared = false
+			tokens = append(tokens, preparedToken)
+		}
 	}
 
 SCAN:
@@ -53,9 +57,7 @@ SCAN:
 		current := s[pos]
 
 		if unicode.IsSpace(current) {
-			if isTokenPrepared {
-				commitPrepared(pos)
-			}
+			commitPrepared(pos)
 			continue
 		}
 
@@ -64,10 +66,9 @@ SCAN:
 			if !ok {
 				continue
 			}
-			if isTokenPrepared {
-				commitPrepared(pos)
-			}
+			commitPrepared(pos)
 			tokens = append(tokens, token)
+
 			// increase iterator counter because token length could be over than one char
 			if token.PosEnd-pos > 1 {
 				pos = token.PosEnd
@@ -75,7 +76,7 @@ SCAN:
 			continue SCAN
 		}
 
-		if isTokenPrepared && pos == len(s)-1 {
+		if pos == len(s)-1 {
 			commitPrepared(len(s))
 			continue
 		}
@@ -88,38 +89,57 @@ SCAN:
 		if current == '\'' {
 			preparedToken.HasApostrophe = true
 		}
-
 	}
 
+	if t.Normalize {
+		t.normalize(tokens)
+	}
 	if t.ExpandContrations {
 		if expandedTokens, ok := t.expandContractions(tokens); ok {
 			return expandedTokens
 		}
 	}
-
 	return tokens
 }
 
 func (t *TBWordTokenizer) expandContractions(tokens []*SentenceToken) ([]*SentenceToken, bool) {
-	var tokensModified bool
+	var modified bool
 
 	expandedTokens := make([]*SentenceToken, 0, len(tokens))
 
 	for i, tok := range tokens {
 		if tokenList, ok := t.LangContractions.Expand(tok); ok {
-			if i > 0 && !tokensModified {
-				expandedTokens = append(expandedTokens, tokens[:i-1]...)
+			if i > 0 && !modified {
+				expandedTokens = append(expandedTokens, tokens[:i]...)
 			}
-			tokensModified = true
+			modified = true
 			expandedTokens = append(expandedTokens, tokenList...)
 
-		} else if tokensModified {
+		} else if modified {
 			expandedTokens = append(expandedTokens, tok)
 		}
 	}
-	if tokensModified {
-		return expandedTokens, true
+	if modified {
+		return expandedTokens, modified
 	}
+	return tokens, modified
+}
 
-	return tokens, false
+func (t *TBWordTokenizer) normalize(tokens []*SentenceToken) bool {
+
+	var modified bool
+
+	for _, token := range tokens {
+		if token.IsQuoteStart {
+			// replace starting quote with ``
+			token.Text = []rune{'`', '`'}
+			modified = true
+
+		} else if token.IsQuoteEnd {
+			// replace starting ending quote with ''
+			token.Text = []rune{'\'', '\''}
+			modified = true
+		}
+	}
+	return modified
 }
