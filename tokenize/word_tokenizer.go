@@ -71,23 +71,22 @@ SCAN:
 
 			// increase iterator counter because token length could be over than one char
 			if token.PosEnd-pos > 1 {
-				pos = token.PosEnd
+				pos = token.PosEnd - 1
 			}
 			continue SCAN
 		}
-
-		if pos == len(s)-1 {
-			commitPrepared(len(s))
-			continue
-		}
-
 		if !isTokenPrepared {
 			preparedToken = &SentenceToken{PosStart: pos}
 			isTokenPrepared = true
 		}
+
 		// Set HasApostrophe property to find token candiadtes with contractions easiely
 		if current == '\'' {
 			preparedToken.HasApostrophe = true
+		}
+
+		if pos == len(s)-1 {
+			commitPrepared(len(s))
 		}
 	}
 

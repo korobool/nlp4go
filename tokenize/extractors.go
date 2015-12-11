@@ -55,8 +55,8 @@ func extractTokenPeriod(s []rune, pos int) (*SentenceToken, bool) {
 	} else if unicode.Is(endPeriodTbl, s[pos+1]) || unicode.IsSpace(s[pos+1]) {
 		// NOTE checking all chars till the end whether it
 		// closing parens/brackets, etc. BUT not more than 5 chars examined
-		for maxIt, i := 5, pos+1; i < len(s) || i <= maxIt; i++ {
-			if !unicode.Is(endPeriodTbl, s[i]) && !unicode.IsSpace(s[i]) {
+		for maxIt, i := 5, pos+1; i < len(s) && i <= pos+1+maxIt; i++ {
+			if !(unicode.Is(endPeriodTbl, s[i]) || unicode.IsSpace(s[i])) {
 				return nil, false
 			}
 		}
@@ -77,7 +77,9 @@ func extractTokenApostrophe(s []rune, pos int) (*SentenceToken, bool) {
 		return nil, false
 
 	} else if s[pos-1] != '\'' && unicode.IsSpace(s[pos+1]) {
-		return NewSentenceToken(s, pos, pos+1), true
+		token := NewSentenceToken(s, pos, pos+1)
+		token.HasApostrophe = true
+		return token, true
 	}
 
 	return nil, false
