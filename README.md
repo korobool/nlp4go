@@ -22,13 +22,15 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 * POS tagger(s)
  * Percepton 
 * String abstraction to imporove performance on unicode
+ * Compatibility with regex
+ * O(1) len() operation for unicode strings
+ * Slises in bytes and characters
 * Immutable Article abstraction (should come up with good interface) 
 * NER support
 * Parsing 
  * We need a complete rules set for syntax parsing
- * FSM based parser
  * Syntax Parsing
- * 
+ * Dependency Parsing
 * WordNet interface
 * Corpuses interface (like Brown corpus in NLTK)
 * Data Downloader
