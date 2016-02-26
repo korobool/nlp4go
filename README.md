@@ -32,8 +32,6 @@ Things that can be executed in parallel mode (like POS tagging for independent s
  * Syntax Parsing
  * Dependency Parsing
 * WordNet interface
-* Corpuses interface (like Brown corpus in NLTK)
-* Data Downloader
 
 ## Files and utils list
 
