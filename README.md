@@ -5,7 +5,7 @@
 
 The idea of nlp4go is to provide a fast go-lang based nlp toolkit for researchers and developers which provides the most commonly used features of NLTK
 and other NPL toolkits, but with production-ready computational performance. 
-Things that can be executed in parallel mode (like POS tagging for independent sentences) should be processe in go-routines in parallel to utilize CPU cores efficiently.
+Things that can be executed in parallel mode (like POS tagging for independent sentences) should be processed in go-routines in parallel to utilize CPU cores efficiently.
 
 
 ### Currently supported languages
