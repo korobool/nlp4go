@@ -60,7 +60,7 @@ utils
    read_ontonotes.go
 ```
 
-## Files and utils list
+## Files and utils list <<< Moved to legacy, to be updated
 
  
 **errors.go** contains constatns for errors to return.  
