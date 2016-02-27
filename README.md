@@ -78,9 +78,10 @@ POS tagger should be trained. For research we use ontonotes v.5 and provide a re
 ./parse -p /path/to/ontontoses/folder | go run ../train_stdin/main.go
 
 We cannot share ontonotes, but you can use your own training data, just feed to train_stdin data in format:
-
+```
 `(IN In)(DT the)(NN summer)(IN of)(CD 2005)(, ,)(DT a)(NN picture)(WDT that)(NNS people)(VBP have)(RB long)(VBN been)(VBG looking)(RB forward)(IN to)(-NONE- *T*-1)(VBD started)(-NONE- *-2)(VBG emerging)(IN with)(NN frequency)(IN in)(JJ various)(JJ major)(NNP Hong)(NNP Kong)(NNS media)(. .)`
 
 `(IN With)(PRP$ their)(JJ unique)(NN charm)(, ,)(DT these)(RB well)(HYPH -)(VBN known)(NN cartoon)(NNS images)(RB once)(RB again)(VBD caused)(NNP Hong)(NNP Kong)(TO to)(VB be)(DT a)(NN focus)(IN of)(JJ worldwide)(NN attention)(. .)`
 
 `(DT The)(NN world)(POS 's)(JJ fifth)(NNP Disney)(NN park)(MD will)(RB soon)(VB open)(IN to)(DT the)(NN public)(RB here)(. .)`
+```
