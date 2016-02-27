@@ -59,10 +59,10 @@ utils
    train_pos_tagger.go
    read_ontonotes.go
 ```
-<font color="grey"> 
+
 ## Files and utils list <<< Moved to legacy, to be updated
 
-
+<font color="grey"> 
 **errors.go** contains constatns for errors to return.  
 **tagger.go** librarary src for set of differently implemented taggers  
 **tokenizer.go** librarary src for set of differently implemented tokenizers  
