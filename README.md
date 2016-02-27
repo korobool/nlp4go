@@ -33,7 +33,7 @@ Things that can be executed in parallel mode (like POS tagging for independent s
  * Dependency Parsing
 * WordNet interface
 
-## Repository structure should be similar to following tree:
+## Repository structure should be idiomatically similar to following tree:
 
 ```
 legacy  // to be removed later
