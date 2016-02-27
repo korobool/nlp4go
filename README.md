@@ -60,9 +60,7 @@ utils
    read_ontonotes.go
 ```
 
-## Files and utils list <<< Moved to legacy, to be updated
-
-<font color="grey"> 
+## Files and utils list <<< <font color="red"> Moved to legacy, to be updated </font>
 
 **errors.go** contains constatns for errors to return.  
 **tagger.go** librarary src for set of differently implemented taggers  
@@ -74,8 +72,6 @@ utils
 **utils/tags** reads regular sentences from stdin and ouputs words with POS and positions  
 
 **tokenize/** experimental package for tokenizers 
-
-</font>
 
 POS tagger should be trained. For research we use ontonotes v.5 and provide a reader for it. Its output can be used to train a pos-tagger:
 
