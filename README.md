@@ -60,10 +60,7 @@ utils
    read_ontonotes.go
 ```
 
-
-<font color="red"> next section to be updated (legacy folder added)</font>
-
-## Files and utils list
+## Files and utils list <<<section to be updated (legacy folder added)
 
 **errors.go** contains constatns for errors to return.  
 **tagger.go** librarary src for set of differently implemented taggers  
