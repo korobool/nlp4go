@@ -33,6 +33,33 @@ Things that can be executed in parallel mode (like POS tagging for independent s
  * Dependency Parsing
 * WordNet interface
 
+## Repository structure should be similar to following tree:
+
+```
+legacy  // to be removed later
+core
+    strings.go
+    exregex.go
+ml
+    perceptron.go 
+    ...
+tokenize
+    wordsplit.go
+    wordregex.go
+    sentencesplit.go
+    sentencesregex.go
+    ...
+tagg
+    perceptron-pos
+parse
+    syntax
+    dependency
+    ...
+utils
+   train_pos_tagger.go
+   read_ontonotes.go
+```
+
 ## Files and utils list
 
  
