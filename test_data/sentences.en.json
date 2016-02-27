@@ -1,0 +1,3552 @@
+[
+    {
+        "tokens": [
+            {
+                "pos_end": 2,
+                "raw_text": "On",
+                "text": [
+                    79,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 4,
+                "raw_text": "a",
+                "text": [
+                    97
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 6,
+                "raw_text": "$",
+                "text": [
+                    36
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 12,
+                "raw_text": "50,000",
+                "text": [
+                    53,
+                    48,
+                    44,
+                    48,
+                    48,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "mortgage",
+                "text": [
+                    109,
+                    111,
+                    114,
+                    116,
+                    103,
+                    97,
+                    103,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 24,
+                "raw_text": "of",
+                "text": [
+                    111,
+                    102
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": "30",
+                "text": [
+                    51,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 25,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 33,
+                "raw_text": "years",
+                "text": [
+                    121,
+                    101,
+                    97,
+                    114,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 36,
+                "raw_text": "at",
+                "text": [
+                    97,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 34,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 38,
+                "raw_text": "8",
+                "text": [
+                    56
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 37,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 46,
+                "raw_text": "percent",
+                "text": [
+                    112,
+                    101,
+                    114,
+                    99,
+                    101,
+                    110,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 47,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 51,
+                "raw_text": "the",
+                "text": [
+                    116,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 48,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 59,
+                "raw_text": "monthly",
+                "text": [
+                    109,
+                    111,
+                    110,
+                    116,
+                    104,
+                    108,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 52,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 67,
+                "raw_text": "payment",
+                "text": [
+                    112,
+                    97,
+                    121,
+                    109,
+                    101,
+                    110,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 60,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 73,
+                "raw_text": "would",
+                "text": [
+                    119,
+                    111,
+                    117,
+                    108,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 68,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 76,
+                "raw_text": "be",
+                "text": [
+                    98,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 74,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 78,
+                "raw_text": "$",
+                "text": [
+                    36
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 77,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 84,
+                "raw_text": "366.88",
+                "text": [
+                    51,
+                    54,
+                    54,
+                    46,
+                    56,
+                    56
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 78,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 85,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 84,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "On a $50,000 mortgage of 30 years at 8 percent, the monthly payment would be $366.88."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "``",
+                "text": [
+                    96,
+                    96
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 3,
+                "raw_text": "We",
+                "text": [
+                    87,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "beat",
+                "text": [
+                    98,
+                    101,
+                    97,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "some",
+                "text": [
+                    115,
+                    111,
+                    109,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 20,
+                "raw_text": "pretty",
+                "text": [
+                    112,
+                    114,
+                    101,
+                    116,
+                    116,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 25,
+                "raw_text": "good",
+                "text": [
+                    103,
+                    111,
+                    111,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 31,
+                "raw_text": "teams",
+                "text": [
+                    116,
+                    101,
+                    97,
+                    109,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 26,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 34,
+                "raw_text": "to",
+                "text": [
+                    116,
+                    111
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 38,
+                "raw_text": "get",
+                "text": [
+                    103,
+                    101,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 43,
+                "raw_text": "here",
+                "text": [
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 44,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 43,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 45,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 44,
+                "is_quote_end": true
+            },
+            {
+                "pos_end": 52,
+                "raw_text": "Slocum",
+                "text": [
+                    83,
+                    108,
+                    111,
+                    99,
+                    117,
+                    109
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 57,
+                "raw_text": "said",
+                "text": [
+                    115,
+                    97,
+                    105,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 53,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 58,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 57,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "\"We beat some pretty good teams to get here,\" Slocum said."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 4,
+                "raw_text": "Well",
+                "text": [
+                    87,
+                    101,
+                    108,
+                    108
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 5,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "we",
+                "text": [
+                    119,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 14,
+                "raw_text": "could",
+                "text": [
+                    99,
+                    111,
+                    117,
+                    108,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "n't",
+                "text": [
+                    110,
+                    39,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 22,
+                "raw_text": "have",
+                "text": [
+                    104,
+                    97,
+                    118,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": "this",
+                "text": [
+                    116,
+                    104,
+                    105,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 39,
+                "raw_text": "predictable",
+                "text": [
+                    112,
+                    114,
+                    101,
+                    100,
+                    105,
+                    99,
+                    116,
+                    97,
+                    98,
+                    108,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 40,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 54,
+                "raw_text": "cliche-ridden",
+                "text": [
+                    99,
+                    108,
+                    105,
+                    99,
+                    104,
+                    101,
+                    45,
+                    114,
+                    105,
+                    100,
+                    100,
+                    101,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 41,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 55,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 54,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 57,
+                "raw_text": "\\",
+                "text": [
+                    92
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 56,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 58,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 57,
+                "is_quote_end": true
+            },
+            {
+                "pos_end": 65,
+                "raw_text": "Touched",
+                "text": [
+                    84,
+                    111,
+                    117,
+                    99,
+                    104,
+                    101,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 58,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 68,
+                "raw_text": "by",
+                "text": [
+                    98,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 66,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 71,
+                "raw_text": "an",
+                "text": [
+                    97,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 69,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 78,
+                "raw_text": "Angel\\",
+                "text": [
+                    65,
+                    110,
+                    103,
+                    101,
+                    108,
+                    92
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 72,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 79,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 78,
+                "is_quote_end": true
+            },
+            {
+                "pos_end": 81,
+                "raw_text": "(",
+                "text": [
+                    40
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 80,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 82,
+                "raw_text": "a",
+                "text": [
+                    97
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 81,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 87,
+                "raw_text": "show",
+                "text": [
+                    115,
+                    104,
+                    111,
+                    119
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 83,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 95,
+                "raw_text": "creator",
+                "text": [
+                    99,
+                    114,
+                    101,
+                    97,
+                    116,
+                    111,
+                    114
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 88,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 100,
+                "raw_text": "John",
+                "text": [
+                    74,
+                    111,
+                    104,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 96,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 107,
+                "raw_text": "Masius",
+                "text": [
+                    77,
+                    97,
+                    115,
+                    105,
+                    117,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 101,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 114,
+                "raw_text": "worked",
+                "text": [
+                    119,
+                    111,
+                    114,
+                    107,
+                    101,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 108,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 117,
+                "raw_text": "on",
+                "text": [
+                    111,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 115,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 118,
+                "raw_text": ")",
+                "text": [
+                    41
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 117,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 127,
+                "raw_text": "wanna-be",
+                "text": [
+                    119,
+                    97,
+                    110,
+                    110,
+                    97,
+                    45,
+                    98,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 119,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 130,
+                "raw_text": "if",
+                "text": [
+                    105,
+                    102
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 128,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 134,
+                "raw_text": "she",
+                "text": [
+                    115,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 131,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 138,
+                "raw_text": "did",
+                "text": [
+                    100,
+                    105,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 135,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 141,
+                "raw_text": "n't",
+                "text": [
+                    110,
+                    39,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 138,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 142,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 141,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Well, we couldn't have this predictable, cliche-ridden, \\\"Touched by an Angel\\\" (a show creator John Masius worked on) wanna-be if she didn't."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "I",
+                "text": [
+                    73
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 5,
+                "raw_text": "can",
+                "text": [
+                    99,
+                    97,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "not",
+                "text": [
+                    110,
+                    111,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 12,
+                "raw_text": "can",
+                "text": [
+                    99,
+                    97,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 15,
+                "raw_text": "not",
+                "text": [
+                    110,
+                    111,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 20,
+                "raw_text": "work",
+                "text": [
+                    119,
+                    111,
+                    114,
+                    107
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 16,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 26,
+                "raw_text": "under",
+                "text": [
+                    117,
+                    110,
+                    100,
+                    101,
+                    114
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 32,
+                "raw_text": "these",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    115,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 27,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 43,
+                "raw_text": "conditions",
+                "text": [
+                    99,
+                    111,
+                    110,
+                    100,
+                    105,
+                    116,
+                    105,
+                    111,
+                    110,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 33,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 44,
+                "raw_text": "!",
+                "text": [
+                    33
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 43,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "I cannot cannot work under these conditions!"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 3,
+                "raw_text": "The",
+                "text": [
+                    84,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 11,
+                "raw_text": "company",
+                "text": [
+                    99,
+                    111,
+                    109,
+                    112,
+                    97,
+                    110,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "spent",
+                "text": [
+                    115,
+                    112,
+                    101,
+                    110,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": "$",
+                "text": [
+                    36
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 29,
+                "raw_text": "30,000,000",
+                "text": [
+                    51,
+                    48,
+                    44,
+                    48,
+                    48,
+                    48,
+                    44,
+                    48,
+                    48,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 34,
+                "raw_text": "last",
+                "text": [
+                    108,
+                    97,
+                    115,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 30,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 39,
+                "raw_text": "year",
+                "text": [
+                    121,
+                    101,
+                    97,
+                    114
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 40,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "The company spent $30,000,000 last year."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 3,
+                "raw_text": "The",
+                "text": [
+                    84,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 11,
+                "raw_text": "company",
+                "text": [
+                    99,
+                    111,
+                    109,
+                    112,
+                    97,
+                    110,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "spent",
+                "text": [
+                    115,
+                    112,
+                    101,
+                    110,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 23,
+                "raw_text": "40.75",
+                "text": [
+                    52,
+                    48,
+                    46,
+                    55,
+                    53
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 24,
+                "raw_text": "%",
+                "text": [
+                    37
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": "of",
+                "text": [
+                    111,
+                    102
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 25,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 31,
+                "raw_text": "its",
+                "text": [
+                    105,
+                    116,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 38,
+                "raw_text": "income",
+                "text": [
+                    105,
+                    110,
+                    99,
+                    111,
+                    109,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 43,
+                "raw_text": "last",
+                "text": [
+                    108,
+                    97,
+                    115,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 48,
+                "raw_text": "year",
+                "text": [
+                    121,
+                    101,
+                    97,
+                    114
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 44,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 49,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 48,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "The company spent 40.75% of its income last year."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 2,
+                "raw_text": "He",
+                "text": [
+                    72,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 10,
+                "raw_text": "arrived",
+                "text": [
+                    97,
+                    114,
+                    114,
+                    105,
+                    118,
+                    101,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "at",
+                "text": [
+                    97,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 11,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 18,
+                "raw_text": "3:00",
+                "text": [
+                    51,
+                    58,
+                    48,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "pm",
+                "text": [
+                    112,
+                    109
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 22,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "He arrived at 3:00 pm."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "I",
+                "text": [
+                    73
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "bought",
+                "text": [
+                    98,
+                    111,
+                    117,
+                    103,
+                    104,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 14,
+                "raw_text": "these",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    115,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 20,
+                "raw_text": "items",
+                "text": [
+                    105,
+                    116,
+                    101,
+                    109,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 15,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": ":",
+                "text": [
+                    58
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": "books",
+                "text": [
+                    98,
+                    111,
+                    111,
+                    107,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 28,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 27,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 36,
+                "raw_text": "pencils",
+                "text": [
+                    112,
+                    101,
+                    110,
+                    99,
+                    105,
+                    108,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 37,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 36,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 41,
+                "raw_text": "and",
+                "text": [
+                    97,
+                    110,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 38,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 46,
+                "raw_text": "pens",
+                "text": [
+                    112,
+                    101,
+                    110,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 42,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 47,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "I bought these items: books, pencils, and pens."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 6,
+                "raw_text": "Though",
+                "text": [
+                    84,
+                    104,
+                    111,
+                    117,
+                    103,
+                    104
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 12,
+                "raw_text": "there",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "were",
+                "text": [
+                    119,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "150",
+                "text": [
+                    49,
+                    53,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 22,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 26,
+                "raw_text": "100",
+                "text": [
+                    49,
+                    48,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 29,
+                "raw_text": "of",
+                "text": [
+                    111,
+                    102
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 27,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 34,
+                "raw_text": "them",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    109
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 30,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 39,
+                "raw_text": "were",
+                "text": [
+                    119,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 43,
+                "raw_text": "old",
+                "text": [
+                    111,
+                    108,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 40,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 44,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 43,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Though there were 150, 100 of them were old."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 5,
+                "raw_text": "There",
+                "text": [
+                    84,
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 10,
+                "raw_text": "were",
+                "text": [
+                    119,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 18,
+                "raw_text": "300,000",
+                "text": [
+                    51,
+                    48,
+                    48,
+                    44,
+                    48,
+                    48,
+                    48
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 11,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": ",",
+                "text": [
+                    44
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 23,
+                "raw_text": "but",
+                "text": [
+                    98,
+                    117,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 28,
+                "raw_text": "that",
+                "text": [
+                    116,
+                    104,
+                    97,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 24,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 32,
+                "raw_text": "was",
+                "text": [
+                    119,
+                    97,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 35,
+                "raw_text": "n't",
+                "text": [
+                    110,
+                    39,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 42,
+                "raw_text": "enough",
+                "text": [
+                    101,
+                    110,
+                    111,
+                    117,
+                    103,
+                    104
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 36,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 43,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 42,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "There were 300,000, but that wasn't enough."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "I",
+                "text": [
+                    73
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "called",
+                "text": [
+                    99,
+                    97,
+                    108,
+                    108,
+                    101,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 12,
+                "raw_text": "Dr.",
+                "text": [
+                    68,
+                    114,
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": "Jones.",
+                "text": [
+                    74,
+                    111,
+                    110,
+                    101,
+                    115,
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "I",
+                "text": [
+                    73
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 28,
+                "raw_text": "called",
+                "text": [
+                    99,
+                    97,
+                    108,
+                    108,
+                    101,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 32,
+                "raw_text": "Dr.",
+                "text": [
+                    68,
+                    114,
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 38,
+                "raw_text": "Jones",
+                "text": [
+                    74,
+                    111,
+                    110,
+                    101,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 33,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 39,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 38,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "I called Dr. Jones. I called Dr. Jones."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 4,
+                "raw_text": "Good",
+                "text": [
+                    71,
+                    111,
+                    111,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 12,
+                "raw_text": "muffins",
+                "text": [
+                    109,
+                    117,
+                    102,
+                    102,
+                    105,
+                    110,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "cost",
+                "text": [
+                    99,
+                    111,
+                    115,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": "$",
+                "text": [
+                    36
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": "3.88\\nin",
+                "text": [
+                    51,
+                    46,
+                    56,
+                    56,
+                    92,
+                    110,
+                    105,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 31,
+                "raw_text": "New",
+                "text": [
+                    78,
+                    101,
+                    119
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 37,
+                "raw_text": "York.",
+                "text": [
+                    89,
+                    111,
+                    114,
+                    107,
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 45,
+                "raw_text": "Please",
+                "text": [
+                    80,
+                    108,
+                    101,
+                    97,
+                    115,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 49,
+                "raw_text": "buy",
+                "text": [
+                    98,
+                    117,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 57,
+                "raw_text": "me\\ntwo",
+                "text": [
+                    109,
+                    101,
+                    92,
+                    110,
+                    116,
+                    119,
+                    111
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 50,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 60,
+                "raw_text": "of",
+                "text": [
+                    111,
+                    102
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 58,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 74,
+                "raw_text": "them.\\nThanks",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    109,
+                    46,
+                    92,
+                    110,
+                    84,
+                    104,
+                    97,
+                    110,
+                    107,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 61,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 75,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 74,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 4,
+                "raw_text": "Fuck",
+                "text": [
+                    70,
+                    117,
+                    99,
+                    107
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "off",
+                "text": [
+                    111,
+                    102,
+                    102
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 11,
+                "raw_text": "--",
+                "text": [
+                    45,
+                    45
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": "Johnson",
+                "text": [
+                    74,
+                    111,
+                    104,
+                    110,
+                    115,
+                    111,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 20,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Fuck off -- Johnson."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 5,
+                "raw_text": "Place",
+                "text": [
+                    80,
+                    108,
+                    97,
+                    99,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 10,
+                "raw_text": "here",
+                "text": [
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "...",
+                "text": [
+                    46,
+                    46,
+                    46
+                ],
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 10,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 23,
+                "raw_text": "something",
+                "text": [
+                    115,
+                    111,
+                    109,
+                    101,
+                    116,
+                    104,
+                    105,
+                    110,
+                    103
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 24,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Place here... something."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 8,
+                "raw_text": "Ellipsis",
+                "text": [
+                    69,
+                    108,
+                    108,
+                    105,
+                    112,
+                    115,
+                    105,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 12,
+                "raw_text": "...",
+                "text": [
+                    46,
+                    46,
+                    46
+                ],
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "here",
+                "text": [
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 18,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 17,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Ellipsis ... here."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 6,
+                "raw_text": "Anoter",
+                "text": [
+                    65,
+                    110,
+                    111,
+                    116,
+                    101,
+                    114
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 15,
+                "raw_text": "ellipsis",
+                "text": [
+                    101,
+                    108,
+                    108,
+                    105,
+                    112,
+                    115,
+                    105,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": "...",
+                "text": [
+                    46,
+                    46,
+                    46
+                ],
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 16,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 24,
+                "raw_text": "there",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 25,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 24,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Anoter ellipsis ...there."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 4,
+                "raw_text": "Look",
+                "text": [
+                    76,
+                    111,
+                    111,
+                    107
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "ellipsis",
+                "text": [
+                    101,
+                    108,
+                    108,
+                    105,
+                    112,
+                    115,
+                    105,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 16,
+                "raw_text": "at",
+                "text": [
+                    97,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 20,
+                "raw_text": "the",
+                "text": [
+                    116,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 17,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 24,
+                "raw_text": "end",
+                "text": [
+                    101,
+                    110,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": "...",
+                "text": [
+                    46,
+                    46,
+                    46
+                ],
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 24,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Look ellipsis at the end..."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 6,
+                "raw_text": "Dobule",
+                "text": [
+                    68,
+                    111,
+                    98,
+                    117,
+                    108,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "period",
+                "text": [
+                    112,
+                    101,
+                    114,
+                    105,
+                    111,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "the",
+                "text": [
+                    116,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 23,
+                "raw_text": "end..",
+                "text": [
+                    101,
+                    110,
+                    100,
+                    46,
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Dobule period the end.."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 4,
+                "raw_text": "Here",
+                "text": [
+                    72,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 14,
+                "raw_text": "another..",
+                "text": [
+                    97,
+                    110,
+                    111,
+                    116,
+                    104,
+                    101,
+                    114,
+                    46,
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "double",
+                "text": [
+                    100,
+                    111,
+                    117,
+                    98,
+                    108,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 15,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 28,
+                "raw_text": "period",
+                "text": [
+                    112,
+                    101,
+                    114,
+                    105,
+                    111,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 29,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Here another.. double period."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 5,
+                "raw_text": "Hello",
+                "text": [
+                    72,
+                    101,
+                    108,
+                    108,
+                    111
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 6,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Hello. "
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 2,
+                "raw_text": "Hi",
+                "text": [
+                    72,
+                    105
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 3,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 4,
+                "raw_text": "}",
+                "text": [
+                    125
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Hi.}"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 3,
+                "raw_text": "Buy",
+                "text": [
+                    66,
+                    117,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 4,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 5,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": true
+            }
+        ],
+        "sentence": "Buy.\""
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "``",
+                "text": [
+                    96,
+                    96
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 6,
+                "raw_text": "Ho-Ho",
+                "text": [
+                    72,
+                    111,
+                    45,
+                    72,
+                    111
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 7,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": true
+            }
+        ],
+        "sentence": "\"Ho-Ho.\""
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "``",
+                "text": [
+                    96,
+                    96
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 2,
+                "raw_text": "(",
+                "text": [
+                    40
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 7,
+                "raw_text": "Ooops",
+                "text": [
+                    79,
+                    111,
+                    111,
+                    112,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 8,
+                "raw_text": ")",
+                "text": [
+                    41
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 11,
+                "raw_text": "Hey",
+                "text": [
+                    72,
+                    101,
+                    121
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 8,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 17,
+                "raw_text": "there",
+                "text": [
+                    116,
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 18,
+                "raw_text": "!",
+                "text": [
+                    33
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 17,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 19,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": true
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "I",
+                "text": [
+                    73
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 26,
+                "raw_text": "said",
+                "text": [
+                    115,
+                    97,
+                    105,
+                    100
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 27,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 26,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "\"(Ooops)Hey there!\" I said."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 4,
+                "raw_text": "What",
+                "text": [
+                    87,
+                    104,
+                    97,
+                    116
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 9,
+                "raw_text": "does",
+                "text": [
+                    100,
+                    111,
+                    101,
+                    115
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "the",
+                "text": [
+                    116,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 10,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 18,
+                "raw_text": "term",
+                "text": [
+                    116,
+                    101,
+                    114,
+                    109
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 20,
+                "raw_text": "``",
+                "text": [
+                    96,
+                    96
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 19,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 29,
+                "raw_text": "coherence",
+                "text": [
+                    99,
+                    111,
+                    104,
+                    101,
+                    114,
+                    101,
+                    110,
+                    99,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 30,
+                "raw_text": "''",
+                "text": [
+                    39,
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": true
+            },
+            {
+                "pos_end": 35,
+                "raw_text": "maen",
+                "text": [
+                    109,
+                    97,
+                    101,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 31,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 36,
+                "raw_text": "?",
+                "text": [
+                    63
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "What does the term \"coherence\" maen?"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "'",
+                "text": [
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "'"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 9,
+                "raw_text": "Apostrohe",
+                "text": [
+                    65,
+                    112,
+                    111,
+                    115,
+                    116,
+                    114,
+                    111,
+                    104,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 14,
+                "raw_text": "here",
+                "text": [
+                    104,
+                    101,
+                    114,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 10,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 15,
+                "raw_text": "'",
+                "text": [
+                    39
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 21,
+                "raw_text": "again",
+                "text": [
+                    97,
+                    103,
+                    97,
+                    105,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 16,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 22,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Apostrohe here' again."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 8,
+                "raw_text": "Sentence",
+                "text": [
+                    83,
+                    101,
+                    110,
+                    116,
+                    101,
+                    110,
+                    99,
+                    101
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 13,
+                "raw_text": "with",
+                "text": [
+                    119,
+                    105,
+                    116,
+                    104
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 24,
+                "raw_text": "newline.\\n",
+                "text": [
+                    110,
+                    101,
+                    119,
+                    108,
+                    105,
+                    110,
+                    101,
+                    46,
+                    92,
+                    110
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "Sentence with newline.\\n"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "A",
+                "text": [
+                    65
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "A"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "A",
+                "text": [
+                    65
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 2,
+                "raw_text": "!",
+                "text": [
+                    33
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "A!"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 3,
+                "raw_text": "..A",
+                "text": [
+                    46,
+                    46,
+                    65
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 4,
+                "raw_text": "!",
+                "text": [
+                    33
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "..A!"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 2,
+                "raw_text": ".A",
+                "text": [
+                    46,
+                    65
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 3,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": ".A."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": ".",
+                "text": [
+                    46
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "."
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "{",
+                "text": [
+                    123
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "{"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "}",
+                "text": [
+                    125
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "}"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 2,
+                "raw_text": "--",
+                "text": [
+                    45,
+                    45
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "--"
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "``",
+                "text": [
+                    96,
+                    96
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "\""
+    },
+    {
+        "tokens": [
+            {
+                "pos_end": 1,
+                "raw_text": "-",
+                "text": [
+                    45
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 3,
+                "raw_text": "``",
+                "text": [
+                    96,
+                    96
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 2,
+                "is_quote_end": false
+            },
+            {
+                "pos_end": 4,
+                "raw_text": "=",
+                "text": [
+                    61
+                ],
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false
+            }
+        ],
+        "sentence": "- \"="
+    }
+]
