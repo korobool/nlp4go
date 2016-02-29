@@ -60,7 +60,7 @@ utils
    read_ontonotes.go
 ```
 
-### Train model
+### Train model for perceptron based POS tagger
 ```
 go run tagger_train.go -corpus /home/user/ontonotes -model test-model.go
 ```
