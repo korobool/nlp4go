@@ -2,6 +2,7 @@
 
 [![Join the chat at https://gitter.im/korobool/nlp4go](https://badges.gitter.im/korobool/nlp4go.svg)](https://gitter.im/korobool/nlp4go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+*Note: The project is in a relatively initial state, it is expected to be released as production ready in the middle April 2016 with very basic functionality in master. There will be tokenizing, pos-tagging and syntax parsing available. Other parts will take longer to become ready.*
 
 The idea of nlp4go is to provide a fast go-lang based nlp toolkit for researchers and developers which provides the most commonly used features of NLTK
 and other NPL toolkits, but with production-ready computational performance. 
@@ -60,22 +61,14 @@ utils
    read_ontonotes.go
 ```
 
-## Files and utils list <<<section to be updated (legacy folder added)
-
-**errors.go** contains constatns for errors to return.  
-**tagger.go** librarary src for set of differently implemented taggers  
-**tokenizer.go** librarary src for set of differently implemented tokenizers  
-**utils.go** set of helper functions  
-
-**utils/parse** parses ontonotes dir and outputs sentences per line in (tag word) format to stdout  
-**utils/train_stdin** trains model using input per line sentences (in (tag word) format) from stdin  
-**utils/tags** reads regular sentences from stdin and ouputs words with POS and positions  
-
-**tokenize/** experimental package for tokenizers 
-
-POS tagger should be trained. For research we use ontonotes v.5 and provide a reader for it. Its output can be used to train a pos-tagger:
-
-./parse -p /path/to/ontontoses/folder | go run ../train_stdin/main.go
+### Train model for perceptron based POS tagger
+```
+go run tagger_train.go -corpus /home/user/ontonotes -model test-model.go
+```
+### Run STDIN tagger
+```
+go run tagger_tag.go -model test-model.go
+```
 
 We cannot share ontonotes, but you can use your own training data, just feed to train_stdin data in format:
 ```
