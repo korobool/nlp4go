@@ -19,7 +19,7 @@ func extractTokenQuote(s []rune, pos int) (*Token, bool) {
 		return nil, false
 	}
 
-	token := NewToken(s, pos, pos+1)
+	token := NewToken(s, pos, 1)
 
 	if pos == 0 {
 		token.IsQuoteStart = true
@@ -45,11 +45,11 @@ func extractTokenPeriod(s []rune, pos int) (*Token, bool) {
 	}
 
 	if pos == len(s)-1 {
-		token = NewToken(s, pos, pos+1)
+		token = NewToken(s, pos, 1)
 
 	} else if len(s) > pos+2 && s[pos+1] == '.' && s[pos+2] == '.' {
 		// NOTE for ellipsis we should increment position
-		token = NewToken(s, pos, pos+3)
+		token = NewToken(s, pos, 3)
 		token.IsEllipsis = true
 
 	} else if unicode.Is(endPeriodTbl, s[pos+1]) || unicode.IsSpace(s[pos+1]) {
@@ -60,7 +60,7 @@ func extractTokenPeriod(s []rune, pos int) (*Token, bool) {
 				return nil, false
 			}
 		}
-		token = NewToken(s, pos, pos+1)
+		token = NewToken(s, pos, 1)
 
 	} else {
 		return nil, false
@@ -77,7 +77,7 @@ func extractTokenApostrophe(s []rune, pos int) (*Token, bool) {
 		return nil, false
 
 	} else if s[pos-1] != '\'' && unicode.IsSpace(s[pos+1]) {
-		token := NewToken(s, pos, pos+1)
+		token := NewToken(s, pos, 1)
 		token.HasApostrophe = true
 		return token, true
 	}
@@ -93,7 +93,7 @@ func extractTokenColon(s []rune, pos int) (*Token, bool) {
 	if pos != len(s)-1 && unicode.IsDigit(s[pos+1]) {
 		return nil, false
 	}
-	return NewToken(s, pos, pos+1), true
+	return NewToken(s, pos, 1), true
 }
 
 func extractTokenComma(s []rune, pos int) (*Token, bool) {
@@ -104,7 +104,7 @@ func extractTokenComma(s []rune, pos int) (*Token, bool) {
 	if pos != len(s)-1 && unicode.IsDigit(s[pos+1]) {
 		return nil, false
 	}
-	return NewToken(s, pos, pos+1), true
+	return NewToken(s, pos, 1), true
 }
 
 func extractTokenHyphen(s []rune, pos int) (*Token, bool) {
@@ -113,7 +113,7 @@ func extractTokenHyphen(s []rune, pos int) (*Token, bool) {
 	}
 	if pos != len(s)-1 && s[pos+1] == '-' {
 		// NOTE for double-hyphen we should increment position
-		return NewToken(s, pos, pos+2), true
+		return NewToken(s, pos, 2), true
 	}
 	return nil, false
 }
@@ -122,5 +122,5 @@ func extractTokenSymbol(s []rune, pos int) (*Token, bool) {
 	if !unicode.Is(standaloneTbl, s[pos]) {
 		return nil, false
 	}
-	return NewToken(s, pos, pos+1), true
+	return NewToken(s, pos, 1), true
 }

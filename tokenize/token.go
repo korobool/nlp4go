@@ -15,8 +15,8 @@ type Token struct {
 
 func NewToken(str []rune, posStart, length int) *Token {
 	return &Token{
-		Runes: str[posStart:length],
-		Word:  string(str[posStart:length]),
+		Runes: str[posStart : posStart+length],
+		Word:  string(str[posStart : posStart+length]),
 		Pos:   posStart,
 	}
 }
