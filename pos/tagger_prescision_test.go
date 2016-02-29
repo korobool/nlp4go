@@ -69,7 +69,7 @@ func TestMain(m *testing.M) {
 
 func TestPoSTaggerQuality(t *testing.T) {
 
-	tokenizer := tokenize.NewTBWordTokenizer(true, true, nil)
+	tokenizer := tokenize.NewSplitTokenizer(" ")
 
 	cfgTagger := pos.TaggerConfig{
 		Tokenizer: tokenizer,
@@ -100,6 +100,11 @@ func TestPoSTaggerQuality(t *testing.T) {
 		tokens, err := posTagger.Tag(strings.Join(wt.Words, " "))
 		if err != nil {
 			t.Fatalf("Error while tagging: %v", err)
+		}
+		if len(tokens) != len(wt.Tags) {
+			t.Logf("Actual: %v", tokens)
+			t.Logf("Expected: %v", wt.Tags)
+			t.Error("Actual tokens count dosen't equal expected")
 		}
 
 		totalTags += len(wt.Tags)
