@@ -2,6 +2,7 @@
 
 [![Join the chat at https://gitter.im/korobool/nlp4go](https://badges.gitter.im/korobool/nlp4go.svg)](https://gitter.im/korobool/nlp4go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Note: The project is in relatively initial state, it is expected to be released as production ready in the middle April 2016 with very basic functionality in master.
 
 The idea of nlp4go is to provide a fast go-lang based nlp toolkit for researchers and developers which provides the most commonly used features of NLTK
 and other NPL toolkits, but with production-ready computational performance. 
