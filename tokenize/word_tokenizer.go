@@ -35,7 +35,11 @@ func NewTBWordTokenizer(normalize, checkContr bool, langContr LangContractions) 
 	}
 }
 
-func (t *TBWordTokenizer) Tokenize(s []rune) []*Token {
+func (t *TBWordTokenizer) Tokenize(s string) []*Token {
+	return t.TokenizeRune([]rune(s))
+}
+
+func (t *TBWordTokenizer) TokenizeRune(s []rune) []*Token {
 
 	var preparedToken *Token
 	var isTokenPrepared bool
@@ -44,7 +48,7 @@ func (t *TBWordTokenizer) Tokenize(s []rune) []*Token {
 
 	commitPrepared := func(posEnd int) {
 		if isTokenPrepared {
-			preparedToken.Text = s[preparedToken.Pos:posEnd]
+			preparedToken.SetText(s[preparedToken.Pos:posEnd])
 			isTokenPrepared = false
 			tokens = append(tokens, preparedToken)
 		}
@@ -132,12 +136,12 @@ func (t *TBWordTokenizer) normalize(tokens []*Token) bool {
 	for _, token := range tokens {
 		if token.IsQuoteStart {
 			// replace starting quote with ``
-			token.Text = []rune{'`', '`'}
+			token.SetText([]rune{'`', '`'})
 			modified = true
 
 		} else if token.IsQuoteEnd {
 			// replace starting ending quote with ''
-			token.Text = []rune{'\'', '\''}
+			token.SetText([]rune{'\'', '\''})
 			modified = true
 		}
 	}
