@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"github.com/korobool/nlp4go/pos"
 	"github.com/korobool/nlp4go/tokenize"
@@ -8,20 +9,28 @@ import (
 	"log"
 )
 
-const (
-	OntonotesPath = "/home/demyan/ontonotes"
-	ModelPath     = "test-model.gob"
+var (
+	OntonotesPath string
+	ModelPath     string
 )
+
+func parseFlags() {
+	flag.StringVar(&OntonotesPath, "corpus", "ontonotes", "path to OntoNotes dir")
+	flag.StringVar(&ModelPath, "model", "test-model.gob", "path to model file")
+	flag.Parse()
+}
 
 func main() {
 
+	parseFlags()
+
 	parser, err := utils.NewOntonotesParser(OntonotesPath)
 	if err != nil {
-		log.Fatalf("failed to create parser: %v", err)
+		log.Fatalf("Failed to create parser: %v", err)
 	}
 	trainSentences, err := parser.ParseToWordsTags()
 	if err != nil {
-		log.Fatalf("failed to parse OntoNotes: %v", err)
+		log.Fatalf("Failed to parse OntoNotes: %v", err)
 	}
 
 	tokenizer := tokenize.NewTBWordTokenizer(true, true, nil)
@@ -33,7 +42,7 @@ func main() {
 	}
 	posTagger, err := pos.NewPerceptronTagger(cfgTagger)
 	if err != nil {
-		log.Fatalf("failed to create POS tagger: %v", err)
+		log.Fatalf("Failed to create POS tagger: %v", err)
 	}
 
 	var progress int

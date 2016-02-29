@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"github.com/korobool/nlp4go/pos"
 	"github.com/korobool/nlp4go/tokenize"
@@ -9,11 +10,17 @@ import (
 	"os"
 )
 
-const (
-	ModelPath = "test-model.gob"
-)
+var ModelPath string
+
+func parseFlags() {
+	flag.StringVar(&ModelPath, "model", "test-model.gob", "path to model file")
+	flag.Parse()
+}
 
 func main() {
+
+	parseFlags()
+
 	scanner := bufio.NewScanner(os.Stdin)
 
 	tokenizer := tokenize.NewTBWordTokenizer(true, true, nil)
@@ -25,7 +32,7 @@ func main() {
 	}
 	posTagger, err := pos.NewPerceptronTagger(cfgTagger)
 	if err != nil {
-		log.Fatalf("failed to create POS tagger: %v", err)
+		log.Fatalf("Failed to create POS tagger: %v", err)
 	}
 
 	for scanner.Scan() {
@@ -33,7 +40,7 @@ func main() {
 
 		tokens, err := posTagger.Tag(line)
 		if err != nil {
-			log.Fatalf("failed to get POS: %v", err)
+			log.Fatalf("Failed to get POS: %v", err)
 		}
 		for _, token := range tokens {
 			fmt.Println(token)
@@ -41,6 +48,6 @@ func main() {
 	}
 
 	if err := scanner.Err(); err != nil {
-		fmt.Fprintln(os.Stderr, "reading standard input:", err)
+		fmt.Fprintln(os.Stderr, "Reading standard input:", err)
 	}
 }
