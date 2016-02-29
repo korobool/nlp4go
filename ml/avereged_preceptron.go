@@ -1,4 +1,4 @@
-package pos
+package ml
 
 type FeatureClass struct {
 	f string
@@ -9,14 +9,14 @@ type AveragedPerceptron struct {
 	i       int
 	totals  map[FeatureClass]float64
 	tstamps map[FeatureClass]int
-	weights map[string]map[string]float64
+	Weights map[string]map[string]float64
 }
 
 func NewAveragedPerceptron() *AveragedPerceptron {
 	return &AveragedPerceptron{
 		totals:  make(map[FeatureClass]float64),
 		tstamps: make(map[FeatureClass]int),
-		weights: make(map[string]map[string]float64),
+		Weights: make(map[string]map[string]float64),
 	}
 }
 
@@ -25,10 +25,10 @@ func (ap *AveragedPerceptron) Predict(features map[string]int) string {
 	scores := map[string]float64{}
 
 	for feat, value := range features {
-		if _, ok := ap.weights[feat]; !ok || value == 0 {
+		if _, ok := ap.Weights[feat]; !ok || value == 0 {
 			continue
 		}
-		for label, weight := range ap.weights[feat] {
+		for label, weight := range ap.Weights[feat] {
 			scores[label] += float64(value) * weight
 		}
 	}
@@ -45,11 +45,11 @@ func (ap *AveragedPerceptron) Update(truth, guess string, features map[string]in
 	var wt, wg float64
 
 	for f := range features {
-		if _, ok := ap.weights[f]; !ok {
-			ap.weights[f] = make(map[string]float64)
+		if _, ok := ap.Weights[f]; !ok {
+			ap.Weights[f] = make(map[string]float64)
 		} else {
-			wt = ap.weights[f][truth]
-			wg = ap.weights[f][guess]
+			wt = ap.Weights[f][truth]
+			wg = ap.Weights[f][guess]
 		}
 		ap.updateFeature(truth, f, wt, 1.0)
 		ap.updateFeature(guess, f, wg, -1.0)
@@ -59,7 +59,7 @@ func (ap *AveragedPerceptron) Update(truth, guess string, features map[string]in
 
 func (ap *AveragedPerceptron) AverageWeights() {
 
-	for feat, weights := range ap.weights {
+	for feat, weights := range ap.Weights {
 
 		newWeights := map[string]float64{}
 
@@ -74,7 +74,7 @@ func (ap *AveragedPerceptron) AverageWeights() {
 				newWeights[class] = averaged
 			}
 		}
-		ap.weights[feat] = newWeights
+		ap.Weights[feat] = newWeights
 	}
 	return
 }
@@ -84,7 +84,7 @@ func (ap *AveragedPerceptron) updateFeature(class, feature string, weight, value
 	param := FeatureClass{feature, class}
 	ap.totals[param] += float64(ap.i-ap.tstamps[param]) * weight
 	ap.tstamps[param] = ap.i
-	ap.weights[feature][class] = weight + value
+	ap.Weights[feature][class] = weight + value
 }
 
 func (ap *AveragedPerceptron) maxScore(m map[string]float64) string {

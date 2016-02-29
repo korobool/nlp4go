@@ -2,6 +2,7 @@ package pos
 
 import (
 	"encoding/gob"
+	"github.com/korobool/nlp4go/ml"
 	"github.com/korobool/nlp4go/tokenize"
 	"math/rand"
 	"os"
@@ -19,7 +20,7 @@ type PerceptronTagger struct {
 	START_TOK          []string
 	END_TOK            []string
 	ModelPath          string
-	Model              *AveragedPerceptron
+	Model              *ml.AveragedPerceptron
 	TagMap             map[string]string
 	Classes            map[string]struct{}
 }
@@ -33,7 +34,7 @@ func NewPerceptronTagger(config TaggerConfig) (*PerceptronTagger, error) {
 		START_TOK:          []string{"-START-", "-START2-"},
 		END_TOK:            []string{"-END-", "-END2-"},
 		ModelPath:          "avp_tagger_model.gob",
-		Model:              NewAveragedPerceptron(),
+		Model:              ml.NewAveragedPerceptron(),
 		TagMap:             make(map[string]string),
 		Classes:            make(map[string]struct{}),
 	}
@@ -217,7 +218,7 @@ func (t *PerceptronTagger) LoadModel(filename string) error {
 	dec := gob.NewDecoder(gobFile)
 	err = dec.Decode(&dump)
 
-	t.Model.weights = dump["weights"].(map[string]map[string]float64)
+	t.Model.Weights = dump["weights"].(map[string]map[string]float64)
 	t.TagMap = dump["tagmap"].(map[string]string)
 	t.Classes = dump["classes"].(map[string]struct{})
 
@@ -232,7 +233,7 @@ func (t *PerceptronTagger) SaveModel() error {
 
 	data := make(map[string]interface{})
 
-	data["weights"] = t.Model.weights
+	data["weights"] = t.Model.Weights
 	data["tagmap"] = t.TagMap
 	data["classes"] = t.Classes
 
