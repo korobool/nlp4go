@@ -60,22 +60,14 @@ utils
    read_ontonotes.go
 ```
 
-## Files and utils list <<<section to be updated (legacy folder added)
-
-**errors.go** contains constatns for errors to return.  
-**tagger.go** librarary src for set of differently implemented taggers  
-**tokenizer.go** librarary src for set of differently implemented tokenizers  
-**utils.go** set of helper functions  
-
-**utils/parse** parses ontonotes dir and outputs sentences per line in (tag word) format to stdout  
-**utils/train_stdin** trains model using input per line sentences (in (tag word) format) from stdin  
-**utils/tags** reads regular sentences from stdin and ouputs words with POS and positions  
-
-**tokenize/** experimental package for tokenizers 
-
-POS tagger should be trained. For research we use ontonotes v.5 and provide a reader for it. Its output can be used to train a pos-tagger:
-
-./parse -p /path/to/ontontoses/folder | go run ../train_stdin/main.go
+### Train model
+```
+go run tagger_train.go -corpus /home/user/ontonotes -model test-model.go
+```
+### Run STDIN tagger
+```
+go run tagger_tag.go -model test-model.go
+```
 
 We cannot share ontonotes, but you can use your own training data, just feed to train_stdin data in format:
 ```
