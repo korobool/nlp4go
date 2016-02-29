@@ -16,6 +16,8 @@ before_install:
   - go get github.com/stretchr/testify/assert
 
 script:
-- go test -v -covermode=count ./tokenize
-#  - go test -v -covermode=count -coverprofile=coverage.out ./tokenize
-#  - goveralls -coverprofile=coverage.out -service travis-ci -repotoken $COVERALLS_TOKEN
+  - go test -coverprofile=core.cover.out -covermode=count ./core
+  - go test -coverprofile=tokenize.cover.out -covermode=count ./tokenize
+  - echo "mode: set" > coverage.out && cat *.cover.out | grep -v mode: | sort -r | \
+  - awk '{if($1 != last) {print $0;last=$1}}' >> coverage.out
+  - goveralls -coverprofile=coverage.out -service travis-ci -repotoken $COVERALLS_TOKEN
