@@ -35,7 +35,7 @@ func TestEnglishTokensCount(t *testing.T) {
 
 	for line, refSent := range refList {
 
-		tokens := tokenizer.Tokenize([]rune(refSent.Sentence))
+		tokens := tokenizer.Tokenize(refSent.Sentence)
 
 		if len(tokens) != len(refSent.Tokens) {
 			t.Logf("Actual  : len=%d tokens=%v", len(tokens), tokens)

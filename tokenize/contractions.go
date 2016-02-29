@@ -50,21 +50,22 @@ func (c *EnglishContractions) Expand(token *Token) ([]*Token, bool) {
 
 func (c *EnglishContractions) splitToken(re *regexp.Regexp, token *Token) ([]*Token, bool) {
 
-	word := string(token.Text)
+	word := token.Word
 	match := re.FindStringSubmatchIndex(word)
 
 	if len(match) == 4 {
 		boundL, _ := byteToRunePosition(word, match[2], match[3])
 		tokens := []*Token{
 			&Token{
-				Text: token.Text[:boundL],
-				Pos:  token.Pos,
+				Pos: token.Pos,
 			},
 			&Token{
-				Text: token.Text[boundL:],
-				Pos:  token.Pos + boundL,
+				Pos: token.Pos + boundL,
 			},
 		}
+		tokens[0].SetText(token.Runes[:boundL])
+		tokens[1].SetText(token.Runes[boundL:])
+
 		return tokens, true
 	}
 	return nil, false

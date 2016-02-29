@@ -35,8 +35,8 @@ def span_tokenize(text):
         if start != -1:
             end = start + len(raw_token)
             spaned_tokens.append({
-                "raw_text": token,
-                "text": [ord(c) for c in token],
+                "word": token,
+                "runes": [ord(c) for c in token],
                 "pos": dt+start,
                 "pos_end": dt+end,
                 "is_quote_start": is_quote_start,

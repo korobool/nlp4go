@@ -3,8 +3,10 @@ package tokenize
 import "fmt"
 
 type Token struct {
-	Text          []rune `json:"text"`
+	Runes         []rune `json:"runes"`
+	Word          string `json:"word"`
 	Pos           int    `json:"pos"`
+	PosTag        string `json:"pos_tag"`
 	IsQuoteStart  bool   `json:"is_quote_start"`
 	IsQuoteEnd    bool   `json:"is_quote_end"`
 	IsEllipsis    bool   `json:"is_ellipsis"`
@@ -13,14 +15,21 @@ type Token struct {
 
 func NewToken(str []rune, posStart, length int) *Token {
 	return &Token{
-		Text: str[posStart:length],
-		Pos:  posStart,
+		Runes: str[posStart:length],
+		Word:  string(str[posStart:length]),
+		Pos:   posStart,
 	}
 }
 
+func (t *Token) SetText(text []rune) {
+	t.Runes = text
+	t.Word = string(text)
+}
+
 func (t *Token) String() string {
-	return fmt.Sprintf("<text=%s start=%d end=%d q_s=%v q_e=%v e=%v a=%v>",
-		string(t.Text),
+	return fmt.Sprintf("<word=%s pos_tag=%s start=%d end=%d q_s=%v q_e=%v e=%v a=%v>",
+		t.Word,
+		t.PosTag,
 		t.Pos,
 		t.PosEnd(),
 		t.IsQuoteStart,
@@ -31,15 +40,15 @@ func (t *Token) String() string {
 }
 
 func (t *Token) Len() int {
-	return len(t.Text)
+	return len(t.Runes)
 }
 
 func (t *Token) PosEnd() int {
-	return t.Pos + len(t.Text)
+	return t.Pos + len(t.Runes)
 }
 
 func (t *Token) Equals(compare *Token) bool {
-	if string(t.Text) != string(compare.Text) {
+	if string(t.Runes) != string(compare.Runes) {
 		return false
 	}
 	if t.Pos != compare.Pos {
