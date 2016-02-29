@@ -19,3 +19,15 @@ func byteToRunePosition(s string, left, right int) (int, int) {
 	}
 	return boundL, boundR
 }
+
+func isEqualRunes(a, b []rune) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for i, r := range a {
+		if r != b[i] {
+			return false
+		}
+	}
+	return true
+}
