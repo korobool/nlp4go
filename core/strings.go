@@ -19,6 +19,8 @@
 //   locs := ustr.FindAll(re)  // locs contain 4 locations (one for every "i" symbol in string)
 //
 //   newS, cnt := ustr.Replace(re, "Ё")  // cnt == 4, newS.String() == "thЁs Ёs unЁcode strЁng: こんにちは""
+//
+
 package strings
 
 import (
@@ -37,12 +39,10 @@ func (e noRuneError) Error() string {
 	return "no next rune in string"
 }
 
-// Representation of string as an array of runes with fixed length.
-// Length is the count of runes (not bytes) in string
+// Representation of string as an array of runes.
 type String struct {
-	runes  []rune
-	length int
-	ridx   int // used for runes indexing in regexp
+	runes []rune
+	ridx  int // used for runes indexing in regexp
 }
 
 // Creates new String object from `string`
@@ -61,13 +61,13 @@ func NewString(orig string) *String {
 		runes[rune_pos] = r
 		rune_pos += 1
 	}
-	s := String{runes: runes, length: int(rc)}
+	s := String{runes: runes}
 	return &s
 }
 
 // Returns length of String object (count of runes)
 func (s *String) Length() int {
-	return s.length
+	return len(s.runes)
 }
 
 // Converts String object to `string`
@@ -85,18 +85,18 @@ func (s *String) String() string {
 
 // Returns substring as a pointer to new String object
 func (s *String) Substring(from, to int) *String {
-	if from < 0 || from > to || to > s.length {
+	if from < 0 || from > to || to > len(s.runes) {
 		return nil
 	}
 	runes := s.runes[from:to]
-	new_s := String{runes: runes, length: to - from}
+	new_s := String{runes: runes}
 	return &new_s
 }
 
 // This function is a part of io.RuneReader iterface
 // that used in regexp
 func (s *String) ReadRune() (r rune, size int, err error) {
-	if s.ridx == s.length {
+	if s.ridx == len(s.runes) {
 		return 0, 0, noRuneError{}
 	}
 	r = s.runes[s.ridx]
@@ -171,6 +171,6 @@ func (s *String) Replace(re *regexp.Regexp, newText string) (*String, int) {
 		idx = loc[1]
 	}
 	runes = append(runes, s.runes[idx:]...)
-	new := String{runes: runes, length: len(runes)}
+	new := String{runes: runes}
 	return &new, len(locs)
 }
