@@ -15,5 +15,5 @@ before_install:
   - go get github.com/stretchr/testify/assert
 
 script:
-  - go test -v -covermode=count -coverprofile=coverage.out ./nlp_string
+  - go test -v -covermode=count -coverprofile=coverage.out ./tokenize
   - goveralls -coverprofile=coverage.out -service travis-ci -repotoken $COVERALLS_TOKEN
