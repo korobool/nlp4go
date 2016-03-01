@@ -46,10 +46,28 @@ func BenchmarkToString(b *testing.B) {
 	}
 }
 
-func BenchmarkReplace(b *testing.B) {
+func BenchmarkFindAll_Many(b *testing.B) {
 	s := RandStringRunes(1000000)
 	str := NewString(s)
 	re, _ := regexp.Compile("a")
+	for i := 0; i < b.N; i++ {
+		_ = str.FindAll(re)
+	}
+}
+
+func BenchmarkFindAll_NoOne(b *testing.B) {
+	s := RandStringRunes(1000000)
+	str := NewString(s)
+	re, _ := regexp.Compile("HOHOHO not found this")
+	for i := 0; i < b.N; i++ {
+		_ = str.FindAll(re)
+	}
+}
+
+func BenchmarkReplace(b *testing.B) {
+	s := RandStringRunes(1000000)
+	str := NewString(s)
+	re, _ := regexp.Compile("A")
 	for i := 0; i < b.N; i++ {
 		_, _ = str.Replace(re, "$")
 		//fmt.Println("Replaced: ", cnt)

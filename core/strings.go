@@ -163,14 +163,24 @@ func (s *String) Match(re *regexp.Regexp) bool {
 func (s *String) Replace(re *regexp.Regexp, newText string) (*String, int) {
 	newStr := NewString(newText)
 	locs := s.FindAll(re)
-	runes := []rune{}
-	idx := 0
+	cut_len := 0
 	for _, loc := range locs {
-		runes = append(runes, s.runes[idx:loc[0]]...)
-		runes = append(runes, newStr.runes...)
-		idx = loc[1]
+		cut_len += loc[1] - loc[0]
 	}
-	runes = append(runes, s.runes[idx:]...)
+	nlen := newStr.Length()
+	new_len := nlen*len(locs) + s.Length() - cut_len
+	runes := make([]rune, new_len)
+	s_idx := 0
+	d_idx := 0
+	d_end := 0
+	for _, loc := range locs {
+		d_end = d_idx + loc[0] - s_idx
+		copy(runes[d_idx:d_end], s.runes[s_idx:loc[0]])
+		copy(runes[d_end:d_end+nlen], newStr.runes)
+		s_idx = loc[1]
+		d_idx = d_end + nlen
+	}
+	copy(runes[d_idx:], s.runes[s_idx:])
 	new := String{runes: runes}
 	return &new, len(locs)
 }
