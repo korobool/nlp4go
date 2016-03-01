@@ -1,8 +1,6 @@
 # nlp4go
 
-[![Join the chat at https://gitter.im/korobool/nlp4go](https://badges.gitter.im/korobool/nlp4go.svg)](https://gitter.im/korobool/nlp4go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[![Build Status](https://travis-ci.org/korobool/nlp4go.svg?branch=master)](https://travis-ci.org/korobool/nlp4go)
+[![Join the chat at https://gitter.im/korobool/nlp4go](https://badges.gitter.im/korobool/nlp4go.svg)](https://gitter.im/korobool/nlp4go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/korobool/nlp4go.svg?branch=master)](https://travis-ci.org/korobool/nlp4go)
 
 *Note: The project is in a relatively initial state, it is expected to be released as production ready in the middle April 2016 with very basic functionality in master. There will be tokenizing, pos-tagging and syntax parsing available. Other parts will take longer to become ready.*
 
