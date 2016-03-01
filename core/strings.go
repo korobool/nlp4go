@@ -48,21 +48,7 @@ type String struct {
 // Creates new String object from `string`
 // and returns pointer to this object
 func NewString(orig string) *String {
-	rc := utf8.RuneCountInString(orig)
-	runes := make([]rune, rc)
-	rune_pos := 0
-	pos := 0
-	for {
-		r, size := utf8.DecodeRuneInString(orig[pos:])
-		if size == 0 {
-			break
-		}
-		pos += size
-		runes[rune_pos] = r
-		rune_pos += 1
-	}
-	s := String{runes: runes}
-	return &s
+	return &String{runes: []rune(orig)}
 }
 
 // Returns length of String object (count of runes)
@@ -142,6 +128,8 @@ func (s *String) FindAll(re *regexp.Regexp) [][]int {
 		if b_loc == nil {
 			s.ridx = 0
 			break
+		} else {
+			s.ridx = cur_ridx + b_loc[1]/4
 		}
 		ret_locs = append(ret_locs, s.normalizeRegexpLoc(cur_ridx, b_loc[0], b_loc[1]))
 
