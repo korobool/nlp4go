@@ -1,7 +1,7 @@
-package nlp_string
+package strings
 
 import (
-	//	"fmt"
+	//"fmt"
 	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"regexp"
@@ -43,6 +43,25 @@ func BenchmarkToString(b *testing.B) {
 	str := NewString(s)
 	for i := 0; i < b.N; i++ {
 		_ = str.String()
+	}
+}
+
+func BenchmarkReplace(b *testing.B) {
+	s := RandStringRunes(1000000)
+	str := NewString(s)
+	re, _ := regexp.Compile("a")
+	for i := 0; i < b.N; i++ {
+		_, _ = str.Replace(re, "$")
+		//fmt.Println("Replaced: ", cnt)
+	}
+}
+
+func BenchmarkReplaceNotFound(b *testing.B) {
+	s := RandStringRunes(1000000)
+	str := NewString(s)
+	re, _ := regexp.Compile("NOT_FOUND")
+	for i := 0; i < b.N; i++ {
+		_, _ = str.Replace(re, "hohoho")
 	}
 }
 
@@ -97,4 +116,17 @@ func TestBasic(t *testing.T) {
 
 	locs = str.FindAll(re4)
 	assert.Equal(t, len(locs), 0)
+
+	newS, cnt := str.Replace(re2, "Ё$")
+	assert.Equal(t, cnt, 3)
+	assert.Equal(t, newS.Length(), 27)
+	assert.Equal(t, newS.String(), "StrЁ$ng wЁ$th unЁ$code: こんに")
+
+	newS, cnt = str.Replace(re3, "")
+	assert.Equal(t, cnt, 1)
+	assert.Equal(t, newS.String(), "String with unicode: こ")
+
+	newS, cnt = str.Replace(re4, "HELLO")
+	assert.Equal(t, cnt, 0)
+	assert.Equal(t, newS.String(), str.String())
 }
