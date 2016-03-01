@@ -24,31 +24,39 @@ func RandStringRunes(n int) string {
 }
 
 func BenchmarkNewString(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
+	b.StartTimer()
 	for i := 0; i < b.N; i++ {
 		_ = NewString(s)
 	}
 }
 
 func BenchmarkSubstring(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
 	str := NewString(s)
+	b.StartTimer()
 	for i := 0; i < b.N; i++ {
 		_ = str.Substring(i%1000000, 1000000)
 	}
 }
 
 func BenchmarkToString(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
 	str := NewString(s)
+	b.StartTimer()
 	for i := 0; i < b.N; i++ {
 		_ = str.String()
 	}
 }
 
 func BenchmarkFindAll_Many(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
 	str := NewString(s)
+	b.StartTimer()
 	re, _ := regexp.Compile("a")
 	for i := 0; i < b.N; i++ {
 		_ = str.FindAll(re)
@@ -56,8 +64,10 @@ func BenchmarkFindAll_Many(b *testing.B) {
 }
 
 func BenchmarkFindAll_NoOne(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
 	str := NewString(s)
+	b.StartTimer()
 	re, _ := regexp.Compile("HOHOHO not found this")
 	for i := 0; i < b.N; i++ {
 		_ = str.FindAll(re)
@@ -65,8 +75,10 @@ func BenchmarkFindAll_NoOne(b *testing.B) {
 }
 
 func BenchmarkReplace(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
 	str := NewString(s)
+	b.StartTimer()
 	re, _ := regexp.Compile("A")
 	for i := 0; i < b.N; i++ {
 		_, _ = str.Replace(re, "$")
@@ -75,8 +87,10 @@ func BenchmarkReplace(b *testing.B) {
 }
 
 func BenchmarkReplaceNotFound(b *testing.B) {
+	b.StopTimer()
 	s := RandStringRunes(1000000)
 	str := NewString(s)
+	b.StartTimer()
 	re, _ := regexp.Compile("NOT_FOUND")
 	for i := 0; i < b.N; i++ {
 		_, _ = str.Replace(re, "hohoho")

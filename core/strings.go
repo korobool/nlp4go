@@ -24,9 +24,7 @@
 package strings
 
 import (
-	"bytes"
 	"regexp"
-	"unicode/utf8"
 )
 
 // Error type that returns ReadRune function
@@ -58,15 +56,7 @@ func (s *String) Length() int {
 
 // Converts String object to `string`
 func (s *String) String() string {
-	var size int
-	var ret_bytes bytes.Buffer
-	buf := make([]byte, 4)
-
-	for _, r := range s.runes {
-		size = utf8.EncodeRune(buf, r)
-		ret_bytes.Write(buf[:size])
-	}
-	return ret_bytes.String()
+	return string(s.runes)
 }
 
 // Returns substring as a pointer to new String object
