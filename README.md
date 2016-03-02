@@ -10,8 +10,8 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 
 
 ### Currently supported languages
-* English
-* Russian
+* English 
+* Russian < Planned
 
 
 ### General plan for implementation
@@ -26,7 +26,6 @@ Things that can be executed in parallel mode (like POS tagging for independent s
  * Compatibility with regex
  * O(1) len() operation for unicode strings
  * Slises in bytes and characters
-* Immutable Article abstraction (should come up with good interface) 
 * NER support
 * Parsing 
  * We need a complete rules set for syntax parsing
