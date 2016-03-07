@@ -1,7 +1,7 @@
-.PHONY: test-prescision check-env
+.PHONY: test-accuracy check-env
 
-test-prescision:
-	ONTONOTES_PATH=$(ONTONOTES_PATH) go test -v -timeout 20m tagger_prescision_test.go
+test-accuracy:
+	ONTONOTES_PATH=$(ONTONOTES_PATH) go test -v -timeout 20m tagger_accuracy_test.go
 
 
 check-env:

@@ -1,4 +1,4 @@
-### Run POS tagger prescision test
+### Run POS tagger accuracy test
 ```
- make ONTONOTES_PATH=/home/user/ontonotes test-prescision
+ make ONTONOTES_PATH=/home/user/ontonotes test-accuracy
 ```
