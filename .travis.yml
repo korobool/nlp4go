@@ -11,10 +11,12 @@ env:
   - "PATH=/home/travis/gopath/bin:$PATH"
 
 before_install:
+  - go get golang.org/x/text/unicode/rangetable
   - go get github.com/mattn/goveralls
   - go get github.com/stretchr/testify/assert
   - go get github.com/neurosnap/sentences
 
 script:
-  - go test -v -covermode=count -coverprofile=coverage.out .
-  - goveralls -coverprofile=coverage.out -service travis-ci -repotoken $COVERALLS_TOKEN
+  - bash run_tests.sh
+  - goveralls -coverprofile=coverage.out -service travis-ci
+
