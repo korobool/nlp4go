@@ -1,4 +1,4 @@
-// +build prescision
+// +build accuracy
 
 package nlp4go
 
