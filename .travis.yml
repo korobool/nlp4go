@@ -13,6 +13,7 @@ env:
 before_install:
   - go get github.com/mattn/goveralls
   - go get github.com/stretchr/testify/assert
+  - go get github.com/neurosnap/sentences
 
 script:
   - go test -v -covermode=count -coverprofile=coverage.out .
