@@ -33,11 +33,8 @@ func (t *SplitTokenizer) Tokenize(str string) []*Token {
 			i += len(sep) - 1
 		}
 	}
-
-	if start > 0 {
-		if len(s)-start > 0 {
-			tokens = append(tokens, NewToken(s, start, len(s[start:])))
-		}
+	if start > 0 && len(s)-start > 0 {
+		tokens = append(tokens, NewToken(s, start, len(s[start:])))
 	}
 	if len(tokens) == 0 {
 		tokens = append(tokens, NewToken(s, 0, len(s)))
