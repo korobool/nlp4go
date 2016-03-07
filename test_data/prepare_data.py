@@ -33,7 +33,7 @@ def span_tokenize(text):
 
         start = text[dt:].find(raw_token)
         if start != -1:
-            end = start + len(raw_token)
+            end = start + len(raw_token) - 1
             spaned_tokens.append({
                 "word": token,
                 "runes": [ord(c) for c in token],

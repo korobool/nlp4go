@@ -29,7 +29,7 @@ func (t *PunktTokenizer) Tokenize(text string) []*Sentence {
 	for _, s := range tmpSents {
 		sentences = append(sentences, &Sentence{
 			PosStart: s.Start,
-			PosEnd:   s.End,
+			PosEnd:   s.End - 1,
 			Text:     s.Text,
 		})
 	}

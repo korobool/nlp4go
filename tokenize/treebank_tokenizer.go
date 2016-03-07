@@ -74,8 +74,8 @@ SCAN:
 
 			// increase iterator counter because token length
 			// could be over than one char
-			if token.PosEnd()-pos > 1 {
-				pos = token.PosEnd() - 1
+			if token.PosEnd()-pos > 0 {
+				pos = token.PosEnd()
 			}
 			continue SCAN
 		}

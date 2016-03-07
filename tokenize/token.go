@@ -44,7 +44,7 @@ func (t *Token) Len() int {
 }
 
 func (t *Token) PosEnd() int {
-	return t.Pos + len(t.Runes)
+	return t.Pos + len(t.Runes) - 1
 }
 
 func (t *Token) Equals(compare *Token) bool {

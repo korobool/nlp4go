@@ -3,40 +3,46 @@
         "sentence": "On a $50,000 mortgage of 30 years at 8 percent, the monthly payment would be $366.88.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "On",
+                "pos_end": 1,
                 "runes": [
                     79,
                     110
-                ],
-                "word": "On",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false,
+                "word": "a",
+                "pos_end": 3,
                 "runes": [
                     97
-                ],
-                "word": "a",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 3,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "$",
+                "pos_end": 5,
                 "runes": [
                     36
-                ],
-                "word": "$",
-                "is_ellipsis": false,
-                "pos_end": 6,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false,
+                "word": "50,000",
+                "pos_end": 11,
                 "runes": [
                     53,
                     48,
@@ -44,15 +50,15 @@
                     48,
                     48,
                     48
-                ],
-                "word": "50,000",
-                "is_ellipsis": false,
-                "pos_end": 12,
-                "pos": 6,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false,
+                "word": "mortgage",
+                "pos_end": 20,
                 "runes": [
                     109,
                     111,
@@ -62,77 +68,77 @@
                     97,
                     103,
                     101
-                ],
-                "word": "mortgage",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 13,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false,
+                "word": "of",
+                "pos_end": 23,
                 "runes": [
                     111,
                     102
-                ],
-                "word": "of",
-                "is_ellipsis": false,
-                "pos_end": 24,
-                "pos": 22,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 25,
+                "is_quote_end": false,
+                "word": "30",
+                "pos_end": 26,
                 "runes": [
                     51,
                     48
-                ],
-                "word": "30",
-                "is_ellipsis": false,
-                "pos_end": 27,
-                "pos": 25,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false,
+                "word": "years",
+                "pos_end": 32,
                 "runes": [
                     121,
                     101,
                     97,
                     114,
                     115
-                ],
-                "word": "years",
-                "is_ellipsis": false,
-                "pos_end": 33,
-                "pos": 28,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 34,
+                "is_quote_end": false,
+                "word": "at",
+                "pos_end": 35,
                 "runes": [
                     97,
                     116
-                ],
-                "word": "at",
-                "is_ellipsis": false,
-                "pos_end": 36,
-                "pos": 34,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 37,
+                "is_quote_end": false,
+                "word": "8",
+                "pos_end": 37,
                 "runes": [
                     56
-                ],
-                "word": "8",
-                "is_ellipsis": false,
-                "pos_end": 38,
-                "pos": 37,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false,
+                "word": "percent",
+                "pos_end": 45,
                 "runes": [
                     112,
                     101,
@@ -141,39 +147,39 @@
                     101,
                     110,
                     116
-                ],
-                "word": "percent",
-                "is_ellipsis": false,
-                "pos_end": 46,
-                "pos": 39,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 46,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 47,
-                "pos": 46,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 48,
+                "is_quote_end": false,
+                "word": "the",
+                "pos_end": 50,
                 "runes": [
                     116,
                     104,
                     101
-                ],
-                "word": "the",
-                "is_ellipsis": false,
-                "pos_end": 51,
-                "pos": 48,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 52,
+                "is_quote_end": false,
+                "word": "monthly",
+                "pos_end": 58,
                 "runes": [
                     109,
                     111,
@@ -182,15 +188,15 @@
                     104,
                     108,
                     121
-                ],
-                "word": "monthly",
-                "is_ellipsis": false,
-                "pos_end": 59,
-                "pos": 52,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 60,
+                "is_quote_end": false,
+                "word": "payment",
+                "pos_end": 66,
                 "runes": [
                     112,
                     97,
@@ -199,53 +205,53 @@
                     101,
                     110,
                     116
-                ],
-                "word": "payment",
-                "is_ellipsis": false,
-                "pos_end": 67,
-                "pos": 60,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 68,
+                "is_quote_end": false,
+                "word": "would",
+                "pos_end": 72,
                 "runes": [
                     119,
                     111,
                     117,
                     108,
                     100
-                ],
-                "word": "would",
-                "is_ellipsis": false,
-                "pos_end": 73,
-                "pos": 68,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 74,
+                "is_quote_end": false,
+                "word": "be",
+                "pos_end": 75,
                 "runes": [
                     98,
                     101
-                ],
-                "word": "be",
-                "is_ellipsis": false,
-                "pos_end": 76,
-                "pos": 74,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 77,
+                "is_quote_end": false,
+                "word": "$",
+                "pos_end": 77,
                 "runes": [
                     36
-                ],
-                "word": "$",
-                "is_ellipsis": false,
-                "pos_end": 78,
-                "pos": 77,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 78,
+                "is_quote_end": false,
+                "word": "366.88",
+                "pos_end": 83,
                 "runes": [
                     51,
                     54,
@@ -253,24 +259,18 @@
                     46,
                     56,
                     56
-                ],
-                "word": "366.88",
-                "is_ellipsis": false,
-                "pos_end": 84,
-                "pos": 78,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 84,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 84,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 85,
-                "pos": 84,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -278,58 +278,64 @@
         "sentence": "\"We beat some pretty good teams to get here,\" Slocum said.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "``",
+                "pos_end": 0,
                 "runes": [
                     96,
                     96
-                ],
-                "word": "``",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": true,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false,
+                "word": "We",
+                "pos_end": 2,
                 "runes": [
                     87,
                     101
-                ],
-                "word": "We",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 1,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false,
+                "word": "beat",
+                "pos_end": 7,
                 "runes": [
                     98,
                     101,
                     97,
                     116
-                ],
-                "word": "beat",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 4,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "some",
+                "pos_end": 12,
                 "runes": [
                     115,
                     111,
                     109,
                     101
-                ],
-                "word": "some",
-                "is_ellipsis": false,
-                "pos_end": 13,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "pretty",
+                "pos_end": 19,
                 "runes": [
                     112,
                     114,
@@ -337,106 +343,106 @@
                     116,
                     116,
                     121
-                ],
-                "word": "pretty",
-                "is_ellipsis": false,
-                "pos_end": 20,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false,
+                "word": "good",
+                "pos_end": 24,
                 "runes": [
                     103,
                     111,
                     111,
                     100
-                ],
-                "word": "good",
-                "is_ellipsis": false,
-                "pos_end": 25,
-                "pos": 21,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 26,
+                "is_quote_end": false,
+                "word": "teams",
+                "pos_end": 30,
                 "runes": [
                     116,
                     101,
                     97,
                     109,
                     115
-                ],
-                "word": "teams",
-                "is_ellipsis": false,
-                "pos_end": 31,
-                "pos": 26,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false,
+                "word": "to",
+                "pos_end": 33,
                 "runes": [
                     116,
                     111
-                ],
-                "word": "to",
-                "is_ellipsis": false,
-                "pos_end": 34,
-                "pos": 32,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false,
+                "word": "get",
+                "pos_end": 37,
                 "runes": [
                     103,
                     101,
                     116
-                ],
-                "word": "get",
-                "is_ellipsis": false,
-                "pos_end": 38,
-                "pos": 35,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false,
+                "word": "here",
+                "pos_end": 42,
                 "runes": [
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "here",
-                "is_ellipsis": false,
-                "pos_end": 43,
-                "pos": 39,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 43,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 43,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 44,
-                "pos": 43,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 44,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 44,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 45,
-                "pos": 44,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false,
+                "word": "Slocum",
+                "pos_end": 51,
                 "runes": [
                     83,
                     108,
@@ -444,38 +450,32 @@
                     99,
                     117,
                     109
-                ],
-                "word": "Slocum",
-                "is_ellipsis": false,
-                "pos_end": 52,
-                "pos": 46,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 53,
+                "is_quote_end": false,
+                "word": "said",
+                "pos_end": 56,
                 "runes": [
                     115,
                     97,
                     105,
                     100
-                ],
-                "word": "said",
-                "is_ellipsis": false,
-                "pos_end": 57,
-                "pos": 53,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 57,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 57,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 58,
-                "pos": 57,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -483,99 +483,105 @@
         "sentence": "Well, we couldn't have this predictable, cliche-ridden, \\\"Touched by an Angel\\\" (a show creator John Masius worked on) wanna-be if she didn't.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Well",
+                "pos_end": 3,
                 "runes": [
                     87,
                     101,
                     108,
                     108
-                ],
-                "word": "Well",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 4,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 5,
-                "pos": 4,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false,
+                "word": "we",
+                "pos_end": 7,
                 "runes": [
                     119,
                     101
-                ],
-                "word": "we",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 6,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "could",
+                "pos_end": 13,
                 "runes": [
                     99,
                     111,
                     117,
                     108,
                     100
-                ],
-                "word": "could",
-                "is_ellipsis": false,
-                "pos_end": 14,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "n't",
+                "pos_end": 16,
                 "runes": [
                     110,
                     39,
                     116
-                ],
-                "word": "n't",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": "have",
+                "pos_end": 21,
                 "runes": [
                     104,
                     97,
                     118,
                     101
-                ],
-                "word": "have",
-                "is_ellipsis": false,
-                "pos_end": 22,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false,
+                "word": "this",
+                "pos_end": 26,
                 "runes": [
                     116,
                     104,
                     105,
                     115
-                ],
-                "word": "this",
-                "is_ellipsis": false,
-                "pos_end": 27,
-                "pos": 23,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false,
+                "word": "predictable",
+                "pos_end": 38,
                 "runes": [
                     112,
                     114,
@@ -588,26 +594,26 @@
                     98,
                     108,
                     101
-                ],
-                "word": "predictable",
-                "is_ellipsis": false,
-                "pos_end": 39,
-                "pos": 28,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 39,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 40,
-                "pos": 39,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 41,
+                "is_quote_end": false,
+                "word": "cliche-ridden",
+                "pos_end": 53,
                 "runes": [
                     99,
                     108,
@@ -622,49 +628,49 @@
                     100,
                     101,
                     110
-                ],
-                "word": "cliche-ridden",
-                "is_ellipsis": false,
-                "pos_end": 54,
-                "pos": 41,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 54,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 54,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 55,
-                "pos": 54,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 56,
+                "is_quote_end": false,
+                "word": "\\",
+                "pos_end": 56,
                 "runes": [
                     92
-                ],
-                "word": "\\",
-                "is_ellipsis": false,
-                "pos_end": 57,
-                "pos": 56,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 57,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 57,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 58,
-                "pos": 57,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 58,
+                "is_quote_end": false,
+                "word": "Touched",
+                "pos_end": 64,
                 "runes": [
                     84,
                     111,
@@ -673,39 +679,39 @@
                     104,
                     101,
                     100
-                ],
-                "word": "Touched",
-                "is_ellipsis": false,
-                "pos_end": 65,
-                "pos": 58,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 66,
+                "is_quote_end": false,
+                "word": "by",
+                "pos_end": 67,
                 "runes": [
                     98,
                     121
-                ],
-                "word": "by",
-                "is_ellipsis": false,
-                "pos_end": 68,
-                "pos": 66,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 69,
+                "is_quote_end": false,
+                "word": "an",
+                "pos_end": 70,
                 "runes": [
                     97,
                     110
-                ],
-                "word": "an",
-                "is_ellipsis": false,
-                "pos_end": 71,
-                "pos": 69,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 72,
+                "is_quote_end": false,
+                "word": "Angel\\",
+                "pos_end": 77,
                 "runes": [
                     65,
                     110,
@@ -713,63 +719,63 @@
                     101,
                     108,
                     92
-                ],
-                "word": "Angel\\",
-                "is_ellipsis": false,
-                "pos_end": 78,
-                "pos": 72,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 78,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 78,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 79,
-                "pos": 78,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 80,
+                "is_quote_end": false,
+                "word": "(",
+                "pos_end": 80,
                 "runes": [
                     40
-                ],
-                "word": "(",
-                "is_ellipsis": false,
-                "pos_end": 81,
-                "pos": 80,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 81,
+                "is_quote_end": false,
+                "word": "a",
+                "pos_end": 81,
                 "runes": [
                     97
-                ],
-                "word": "a",
-                "is_ellipsis": false,
-                "pos_end": 82,
-                "pos": 81,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 83,
+                "is_quote_end": false,
+                "word": "show",
+                "pos_end": 86,
                 "runes": [
                     115,
                     104,
                     111,
                     119
-                ],
-                "word": "show",
-                "is_ellipsis": false,
-                "pos_end": 87,
-                "pos": 83,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 88,
+                "is_quote_end": false,
+                "word": "creator",
+                "pos_end": 94,
                 "runes": [
                     99,
                     114,
@@ -778,29 +784,29 @@
                     116,
                     111,
                     114
-                ],
-                "word": "creator",
-                "is_ellipsis": false,
-                "pos_end": 95,
-                "pos": 88,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 96,
+                "is_quote_end": false,
+                "word": "John",
+                "pos_end": 99,
                 "runes": [
                     74,
                     111,
                     104,
                     110
-                ],
-                "word": "John",
-                "is_ellipsis": false,
-                "pos_end": 100,
-                "pos": 96,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 101,
+                "is_quote_end": false,
+                "word": "Masius",
+                "pos_end": 106,
                 "runes": [
                     77,
                     97,
@@ -808,15 +814,15 @@
                     105,
                     117,
                     115
-                ],
-                "word": "Masius",
-                "is_ellipsis": false,
-                "pos_end": 107,
-                "pos": 101,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 108,
+                "is_quote_end": false,
+                "word": "worked",
+                "pos_end": 113,
                 "runes": [
                     119,
                     111,
@@ -824,38 +830,38 @@
                     107,
                     101,
                     100
-                ],
-                "word": "worked",
-                "is_ellipsis": false,
-                "pos_end": 114,
-                "pos": 108,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 115,
+                "is_quote_end": false,
+                "word": "on",
+                "pos_end": 116,
                 "runes": [
                     111,
                     110
-                ],
-                "word": "on",
-                "is_ellipsis": false,
-                "pos_end": 117,
-                "pos": 115,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 117,
+                "is_quote_end": false,
+                "word": ")",
+                "pos_end": 117,
                 "runes": [
                     41
-                ],
-                "word": ")",
-                "is_ellipsis": false,
-                "pos_end": 118,
-                "pos": 117,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 119,
+                "is_quote_end": false,
+                "word": "wanna-be",
+                "pos_end": 126,
                 "runes": [
                     119,
                     97,
@@ -865,75 +871,69 @@
                     45,
                     98,
                     101
-                ],
-                "word": "wanna-be",
-                "is_ellipsis": false,
-                "pos_end": 127,
-                "pos": 119,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 128,
+                "is_quote_end": false,
+                "word": "if",
+                "pos_end": 129,
                 "runes": [
                     105,
                     102
-                ],
-                "word": "if",
-                "is_ellipsis": false,
-                "pos_end": 130,
-                "pos": 128,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 131,
+                "is_quote_end": false,
+                "word": "she",
+                "pos_end": 133,
                 "runes": [
                     115,
                     104,
                     101
-                ],
-                "word": "she",
-                "is_ellipsis": false,
-                "pos_end": 134,
-                "pos": 131,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 135,
+                "is_quote_end": false,
+                "word": "did",
+                "pos_end": 137,
                 "runes": [
                     100,
                     105,
                     100
-                ],
-                "word": "did",
-                "is_ellipsis": false,
-                "pos_end": 138,
-                "pos": 135,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 138,
+                "is_quote_end": false,
+                "word": "n't",
+                "pos_end": 140,
                 "runes": [
                     110,
                     39,
                     116
-                ],
-                "word": "n't",
-                "is_ellipsis": false,
-                "pos_end": 141,
-                "pos": 138,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 141,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 141,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 142,
-                "pos": 141,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -941,113 +941,119 @@
         "sentence": "I cannot cannot work under these conditions!",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "I",
+                "pos_end": 0,
                 "runes": [
                     73
-                ],
-                "word": "I",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
-                "runes": [
-                    99,
-                    97,
-                    110
-                ],
-                "word": "can",
                 "is_ellipsis": false,
-                "pos_end": 5,
+                "is_quote_start": false,
                 "pos": 2,
-                "is_quote_start": false,
-                "is_quote_end": false
-            },
-            {
-                "runes": [
-                    110,
-                    111,
-                    116
-                ],
-                "word": "not",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
-            },
-            {
+                "is_quote_end": false,
+                "word": "can",
+                "pos_end": 4,
                 "runes": [
                     99,
                     97,
                     110
-                ],
-                "word": "can",
-                "is_ellipsis": false,
-                "pos_end": 12,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "not",
+                "pos_end": 7,
                 "runes": [
                     110,
                     111,
                     116
-                ],
-                "word": "not",
-                "is_ellipsis": false,
-                "pos_end": 15,
-                "pos": 12,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "can",
+                "pos_end": 11,
+                "runes": [
+                    99,
+                    97,
+                    110
+                ]
+            },
+            {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false,
+                "word": "not",
+                "pos_end": 14,
+                "runes": [
+                    110,
+                    111,
+                    116
+                ]
+            },
+            {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 16,
+                "is_quote_end": false,
+                "word": "work",
+                "pos_end": 19,
                 "runes": [
                     119,
                     111,
                     114,
                     107
-                ],
-                "word": "work",
-                "is_ellipsis": false,
-                "pos_end": 20,
-                "pos": 16,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false,
+                "word": "under",
+                "pos_end": 25,
                 "runes": [
                     117,
                     110,
                     100,
                     101,
                     114
-                ],
-                "word": "under",
-                "is_ellipsis": false,
-                "pos_end": 26,
-                "pos": 21,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 27,
+                "is_quote_end": false,
+                "word": "these",
+                "pos_end": 31,
                 "runes": [
                     116,
                     104,
                     101,
                     115,
                     101
-                ],
-                "word": "these",
-                "is_ellipsis": false,
-                "pos_end": 32,
-                "pos": 27,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 33,
+                "is_quote_end": false,
+                "word": "conditions",
+                "pos_end": 42,
                 "runes": [
                     99,
                     111,
@@ -1059,24 +1065,18 @@
                     111,
                     110,
                     115
-                ],
-                "word": "conditions",
-                "is_ellipsis": false,
-                "pos_end": 43,
-                "pos": 33,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 43,
+                "is_quote_end": false,
+                "word": "!",
+                "pos_end": 43,
                 "runes": [
                     33
-                ],
-                "word": "!",
-                "is_ellipsis": false,
-                "pos_end": 44,
-                "pos": 43,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1084,19 +1084,25 @@
         "sentence": "The company spent $30,000,000 last year.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "The",
+                "pos_end": 2,
                 "runes": [
                     84,
                     104,
                     101
-                ],
-                "word": "The",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false,
+                "word": "company",
+                "pos_end": 10,
                 "runes": [
                     99,
                     111,
@@ -1105,41 +1111,41 @@
                     97,
                     110,
                     121
-                ],
-                "word": "company",
-                "is_ellipsis": false,
-                "pos_end": 11,
-                "pos": 4,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false,
+                "word": "spent",
+                "pos_end": 16,
                 "runes": [
                     115,
                     112,
                     101,
                     110,
                     116
-                ],
-                "word": "spent",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 12,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": "$",
+                "pos_end": 18,
                 "runes": [
                     36
-                ],
-                "word": "$",
-                "is_ellipsis": false,
-                "pos_end": 19,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false,
+                "word": "30,000,000",
+                "pos_end": 28,
                 "runes": [
                     51,
                     48,
@@ -1151,52 +1157,46 @@
                     48,
                     48,
                     48
-                ],
-                "word": "30,000,000",
-                "is_ellipsis": false,
-                "pos_end": 29,
-                "pos": 19,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 30,
+                "is_quote_end": false,
+                "word": "last",
+                "pos_end": 33,
                 "runes": [
                     108,
                     97,
                     115,
                     116
-                ],
-                "word": "last",
-                "is_ellipsis": false,
-                "pos_end": 34,
-                "pos": 30,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false,
+                "word": "year",
+                "pos_end": 38,
                 "runes": [
                     121,
                     101,
                     97,
                     114
-                ],
-                "word": "year",
-                "is_ellipsis": false,
-                "pos_end": 39,
-                "pos": 35,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 39,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 40,
-                "pos": 39,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1204,19 +1204,25 @@
         "sentence": "The company spent 40.75% of its income last year.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "The",
+                "pos_end": 2,
                 "runes": [
                     84,
                     104,
                     101
-                ],
-                "word": "The",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": false,
+                "word": "company",
+                "pos_end": 10,
                 "runes": [
                     99,
                     111,
@@ -1225,81 +1231,81 @@
                     97,
                     110,
                     121
-                ],
-                "word": "company",
-                "is_ellipsis": false,
-                "pos_end": 11,
-                "pos": 4,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false,
+                "word": "spent",
+                "pos_end": 16,
                 "runes": [
                     115,
                     112,
                     101,
                     110,
                     116
-                ],
-                "word": "spent",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 12,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": "40.75",
+                "pos_end": 22,
                 "runes": [
                     52,
                     48,
                     46,
                     55,
                     53
-                ],
-                "word": "40.75",
-                "is_ellipsis": false,
-                "pos_end": 23,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false,
+                "word": "%",
+                "pos_end": 23,
                 "runes": [
                     37
-                ],
-                "word": "%",
-                "is_ellipsis": false,
-                "pos_end": 24,
-                "pos": 23,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 25,
+                "is_quote_end": false,
+                "word": "of",
+                "pos_end": 26,
                 "runes": [
                     111,
                     102
-                ],
-                "word": "of",
-                "is_ellipsis": false,
-                "pos_end": 27,
-                "pos": 25,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false,
+                "word": "its",
+                "pos_end": 30,
                 "runes": [
                     105,
                     116,
                     115
-                ],
-                "word": "its",
-                "is_ellipsis": false,
-                "pos_end": 31,
-                "pos": 28,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false,
+                "word": "income",
+                "pos_end": 37,
                 "runes": [
                     105,
                     110,
@@ -1307,52 +1313,46 @@
                     111,
                     109,
                     101
-                ],
-                "word": "income",
-                "is_ellipsis": false,
-                "pos_end": 38,
-                "pos": 32,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false,
+                "word": "last",
+                "pos_end": 42,
                 "runes": [
                     108,
                     97,
                     115,
                     116
-                ],
-                "word": "last",
-                "is_ellipsis": false,
-                "pos_end": 43,
-                "pos": 39,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 44,
+                "is_quote_end": false,
+                "word": "year",
+                "pos_end": 47,
                 "runes": [
                     121,
                     101,
                     97,
                     114
-                ],
-                "word": "year",
-                "is_ellipsis": false,
-                "pos_end": 48,
-                "pos": 44,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 48,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 48,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 49,
-                "pos": 48,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1360,18 +1360,24 @@
         "sentence": "He arrived at 3:00 pm.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "He",
+                "pos_end": 1,
                 "runes": [
                     72,
                     101
-                ],
-                "word": "He",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false,
+                "word": "arrived",
+                "pos_end": 9,
                 "runes": [
                     97,
                     114,
@@ -1380,62 +1386,56 @@
                     118,
                     101,
                     100
-                ],
-                "word": "arrived",
-                "is_ellipsis": false,
-                "pos_end": 10,
-                "pos": 3,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 11,
+                "is_quote_end": false,
+                "word": "at",
+                "pos_end": 12,
                 "runes": [
                     97,
                     116
-                ],
-                "word": "at",
-                "is_ellipsis": false,
-                "pos_end": 13,
-                "pos": 11,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "3:00",
+                "pos_end": 17,
                 "runes": [
                     51,
                     58,
                     48,
                     48
-                ],
-                "word": "3:00",
-                "is_ellipsis": false,
-                "pos_end": 18,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false,
+                "word": "pm",
+                "pos_end": 20,
                 "runes": [
                     112,
                     109
-                ],
-                "word": "pm",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 19,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 21,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 22,
-                "pos": 21,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1443,17 +1443,23 @@
         "sentence": "I bought these items: books, pencils, and pens.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "I",
+                "pos_end": 0,
                 "runes": [
                     73
-                ],
-                "word": "I",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false,
+                "word": "bought",
+                "pos_end": 7,
                 "runes": [
                     98,
                     111,
@@ -1461,82 +1467,82 @@
                     103,
                     104,
                     116
-                ],
-                "word": "bought",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 2,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "these",
+                "pos_end": 13,
                 "runes": [
                     116,
                     104,
                     101,
                     115,
                     101
-                ],
-                "word": "these",
-                "is_ellipsis": false,
-                "pos_end": 14,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 15,
+                "is_quote_end": false,
+                "word": "items",
+                "pos_end": 19,
                 "runes": [
                     105,
                     116,
                     101,
                     109,
                     115
-                ],
-                "word": "items",
-                "is_ellipsis": false,
-                "pos_end": 20,
-                "pos": 15,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false,
+                "word": ":",
+                "pos_end": 20,
                 "runes": [
                     58
-                ],
-                "word": ":",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 20,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false,
+                "word": "books",
+                "pos_end": 26,
                 "runes": [
                     98,
                     111,
                     111,
                     107,
                     115
-                ],
-                "word": "books",
-                "is_ellipsis": false,
-                "pos_end": 27,
-                "pos": 22,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 27,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 27,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 28,
-                "pos": 27,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": false,
+                "word": "pencils",
+                "pos_end": 35,
                 "runes": [
                     112,
                     101,
@@ -1545,62 +1551,56 @@
                     105,
                     108,
                     115
-                ],
-                "word": "pencils",
-                "is_ellipsis": false,
-                "pos_end": 36,
-                "pos": 29,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 36,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 36,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 37,
-                "pos": 36,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 38,
+                "is_quote_end": false,
+                "word": "and",
+                "pos_end": 40,
                 "runes": [
                     97,
                     110,
                     100
-                ],
-                "word": "and",
-                "is_ellipsis": false,
-                "pos_end": 41,
-                "pos": 38,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 42,
+                "is_quote_end": false,
+                "word": "pens",
+                "pos_end": 45,
                 "runes": [
                     112,
                     101,
                     110,
                     115
-                ],
-                "word": "pens",
-                "is_ellipsis": false,
-                "pos_end": 46,
-                "pos": 42,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 46,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 47,
-                "pos": 46,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1608,6 +1608,12 @@
         "sentence": "Though there were 150, 100 of them were old.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Though",
+                "pos_end": 5,
                 "runes": [
                     84,
                     104,
@@ -1615,143 +1621,137 @@
                     117,
                     103,
                     104
-                ],
-                "word": "Though",
-                "is_ellipsis": false,
-                "pos_end": 6,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false,
+                "word": "there",
+                "pos_end": 11,
                 "runes": [
                     116,
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "there",
-                "is_ellipsis": false,
-                "pos_end": 12,
-                "pos": 7,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false,
+                "word": "were",
+                "pos_end": 16,
                 "runes": [
                     119,
                     101,
                     114,
                     101
-                ],
-                "word": "were",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 13,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": "150",
+                "pos_end": 20,
                 "runes": [
                     49,
                     53,
                     48
-                ],
-                "word": "150",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 21,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 22,
-                "pos": 21,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false,
+                "word": "100",
+                "pos_end": 25,
                 "runes": [
                     49,
                     48,
                     48
-                ],
-                "word": "100",
-                "is_ellipsis": false,
-                "pos_end": 26,
-                "pos": 23,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 27,
+                "is_quote_end": false,
+                "word": "of",
+                "pos_end": 28,
                 "runes": [
                     111,
                     102
-                ],
-                "word": "of",
-                "is_ellipsis": false,
-                "pos_end": 29,
-                "pos": 27,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 30,
+                "is_quote_end": false,
+                "word": "them",
+                "pos_end": 33,
                 "runes": [
                     116,
                     104,
                     101,
                     109
-                ],
-                "word": "them",
-                "is_ellipsis": false,
-                "pos_end": 34,
-                "pos": 30,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false,
+                "word": "were",
+                "pos_end": 38,
                 "runes": [
                     119,
                     101,
                     114,
                     101
-                ],
-                "word": "were",
-                "is_ellipsis": false,
-                "pos_end": 39,
-                "pos": 35,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 40,
+                "is_quote_end": false,
+                "word": "old",
+                "pos_end": 42,
                 "runes": [
                     111,
                     108,
                     100
-                ],
-                "word": "old",
-                "is_ellipsis": false,
-                "pos_end": 43,
-                "pos": 40,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 43,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 43,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 44,
-                "pos": 43,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1759,35 +1759,41 @@
         "sentence": "There were 300,000, but that wasn't enough.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "There",
+                "pos_end": 4,
                 "runes": [
                     84,
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "There",
-                "is_ellipsis": false,
-                "pos_end": 5,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false,
+                "word": "were",
+                "pos_end": 9,
                 "runes": [
                     119,
                     101,
                     114,
                     101
-                ],
-                "word": "were",
-                "is_ellipsis": false,
-                "pos_end": 10,
-                "pos": 6,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 11,
+                "is_quote_end": false,
+                "word": "300,000",
+                "pos_end": 17,
                 "runes": [
                     51,
                     48,
@@ -1796,79 +1802,79 @@
                     48,
                     48,
                     48
-                ],
-                "word": "300,000",
-                "is_ellipsis": false,
-                "pos_end": 18,
-                "pos": 11,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": ",",
+                "pos_end": 18,
                 "runes": [
                     44
-                ],
-                "word": ",",
-                "is_ellipsis": false,
-                "pos_end": 19,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false,
+                "word": "but",
+                "pos_end": 22,
                 "runes": [
                     98,
                     117,
                     116
-                ],
-                "word": "but",
-                "is_ellipsis": false,
-                "pos_end": 23,
-                "pos": 20,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 24,
+                "is_quote_end": false,
+                "word": "that",
+                "pos_end": 27,
                 "runes": [
                     116,
                     104,
                     97,
                     116
-                ],
-                "word": "that",
-                "is_ellipsis": false,
-                "pos_end": 28,
-                "pos": 24,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": false,
+                "word": "was",
+                "pos_end": 31,
                 "runes": [
                     119,
                     97,
                     115
-                ],
-                "word": "was",
-                "is_ellipsis": false,
-                "pos_end": 32,
-                "pos": 29,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false,
+                "word": "n't",
+                "pos_end": 34,
                 "runes": [
                     110,
                     39,
                     116
-                ],
-                "word": "n't",
-                "is_ellipsis": false,
-                "pos_end": 35,
-                "pos": 32,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 36,
+                "is_quote_end": false,
+                "word": "enough",
+                "pos_end": 41,
                 "runes": [
                     101,
                     110,
@@ -1876,24 +1882,18 @@
                     117,
                     103,
                     104
-                ],
-                "word": "enough",
-                "is_ellipsis": false,
-                "pos_end": 42,
-                "pos": 36,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 42,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 42,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 43,
-                "pos": 42,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -1901,17 +1901,23 @@
         "sentence": "I called Dr. Jones. I called Dr. Jones.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "I",
+                "pos_end": 0,
                 "runes": [
                     73
-                ],
-                "word": "I",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false,
+                "word": "called",
+                "pos_end": 7,
                 "runes": [
                     99,
                     97,
@@ -1919,28 +1925,28 @@
                     108,
                     101,
                     100
-                ],
-                "word": "called",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 2,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "Dr.",
+                "pos_end": 11,
                 "runes": [
                     68,
                     114,
                     46
-                ],
-                "word": "Dr.",
-                "is_ellipsis": false,
-                "pos_end": 12,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false,
+                "word": "Jones.",
+                "pos_end": 18,
                 "runes": [
                     74,
                     111,
@@ -1948,26 +1954,26 @@
                     101,
                     115,
                     46
-                ],
-                "word": "Jones.",
-                "is_ellipsis": false,
-                "pos_end": 19,
-                "pos": 13,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false,
+                "word": "I",
+                "pos_end": 20,
                 "runes": [
                     73
-                ],
-                "word": "I",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 20,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false,
+                "word": "called",
+                "pos_end": 27,
                 "runes": [
                     99,
                     97,
@@ -1975,52 +1981,46 @@
                     108,
                     101,
                     100
-                ],
-                "word": "called",
-                "is_ellipsis": false,
-                "pos_end": 28,
-                "pos": 22,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": false,
+                "word": "Dr.",
+                "pos_end": 31,
                 "runes": [
                     68,
                     114,
                     46
-                ],
-                "word": "Dr.",
-                "is_ellipsis": false,
-                "pos_end": 32,
-                "pos": 29,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 33,
+                "is_quote_end": false,
+                "word": "Jones",
+                "pos_end": 37,
                 "runes": [
                     74,
                     111,
                     110,
                     101,
                     115
-                ],
-                "word": "Jones",
-                "is_ellipsis": false,
-                "pos_end": 38,
-                "pos": 33,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 38,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 38,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 39,
-                "pos": 38,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2028,20 +2028,26 @@
         "sentence": "Good muffins cost $3.88\\nin New York.  Please buy me\\ntwo of them.\\nThanks.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Good",
+                "pos_end": 3,
                 "runes": [
                     71,
                     111,
                     111,
                     100
-                ],
-                "word": "Good",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "muffins",
+                "pos_end": 11,
                 "runes": [
                     109,
                     117,
@@ -2050,40 +2056,40 @@
                     105,
                     110,
                     115
-                ],
-                "word": "muffins",
-                "is_ellipsis": false,
-                "pos_end": 12,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false,
+                "word": "cost",
+                "pos_end": 16,
                 "runes": [
                     99,
                     111,
                     115,
                     116
-                ],
-                "word": "cost",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 13,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": "$",
+                "pos_end": 18,
                 "runes": [
                     36
-                ],
-                "word": "$",
-                "is_ellipsis": false,
-                "pos_end": 19,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false,
+                "word": "3.88\\nin",
+                "pos_end": 26,
                 "runes": [
                     51,
                     46,
@@ -2093,43 +2099,43 @@
                     110,
                     105,
                     110
-                ],
-                "word": "3.88\\nin",
-                "is_ellipsis": false,
-                "pos_end": 27,
-                "pos": 19,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false,
+                "word": "New",
+                "pos_end": 30,
                 "runes": [
                     78,
                     101,
                     119
-                ],
-                "word": "New",
-                "is_ellipsis": false,
-                "pos_end": 31,
-                "pos": 28,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 32,
+                "is_quote_end": false,
+                "word": "York.",
+                "pos_end": 36,
                 "runes": [
                     89,
                     111,
                     114,
                     107,
                     46
-                ],
-                "word": "York.",
-                "is_ellipsis": false,
-                "pos_end": 37,
-                "pos": 32,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 39,
+                "is_quote_end": false,
+                "word": "Please",
+                "pos_end": 44,
                 "runes": [
                     80,
                     108,
@@ -2137,28 +2143,28 @@
                     97,
                     115,
                     101
-                ],
-                "word": "Please",
-                "is_ellipsis": false,
-                "pos_end": 45,
-                "pos": 39,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 46,
+                "is_quote_end": false,
+                "word": "buy",
+                "pos_end": 48,
                 "runes": [
                     98,
                     117,
                     121
-                ],
-                "word": "buy",
-                "is_ellipsis": false,
-                "pos_end": 49,
-                "pos": 46,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 50,
+                "is_quote_end": false,
+                "word": "me\\ntwo",
+                "pos_end": 56,
                 "runes": [
                     109,
                     101,
@@ -2167,27 +2173,27 @@
                     116,
                     119,
                     111
-                ],
-                "word": "me\\ntwo",
-                "is_ellipsis": false,
-                "pos_end": 57,
-                "pos": 50,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 58,
+                "is_quote_end": false,
+                "word": "of",
+                "pos_end": 59,
                 "runes": [
                     111,
                     102
-                ],
-                "word": "of",
-                "is_ellipsis": false,
-                "pos_end": 60,
-                "pos": 58,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 61,
+                "is_quote_end": false,
+                "word": "them.\\nThanks",
+                "pos_end": 73,
                 "runes": [
                     116,
                     104,
@@ -2202,24 +2208,18 @@
                     110,
                     107,
                     115
-                ],
-                "word": "them.\\nThanks",
-                "is_ellipsis": false,
-                "pos_end": 74,
-                "pos": 61,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 74,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 74,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 75,
-                "pos": 74,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2227,45 +2227,51 @@
         "sentence": "Fuck off -- Johnson.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Fuck",
+                "pos_end": 3,
                 "runes": [
                     70,
                     117,
                     99,
                     107
-                ],
-                "word": "Fuck",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "off",
+                "pos_end": 7,
                 "runes": [
                     111,
                     102,
                     102
-                ],
-                "word": "off",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "--",
+                "pos_end": 10,
                 "runes": [
                     45,
                     45
-                ],
-                "word": "--",
-                "is_ellipsis": false,
-                "pos_end": 11,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false,
+                "word": "Johnson",
+                "pos_end": 18,
                 "runes": [
                     74,
                     111,
@@ -2274,24 +2280,18 @@
                     115,
                     111,
                     110
-                ],
-                "word": "Johnson",
-                "is_ellipsis": false,
-                "pos_end": 19,
-                "pos": 12,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 19,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 20,
-                "pos": 19,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2299,48 +2299,54 @@
         "sentence": "Place here... something.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Place",
+                "pos_end": 4,
                 "runes": [
                     80,
                     108,
                     97,
                     99,
                     101
-                ],
-                "word": "Place",
-                "is_ellipsis": false,
-                "pos_end": 5,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false,
+                "word": "here",
+                "pos_end": 9,
                 "runes": [
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "here",
-                "is_ellipsis": false,
-                "pos_end": 10,
-                "pos": 6,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 10,
+                "is_quote_end": false,
+                "word": "...",
+                "pos_end": 12,
                 "runes": [
                     46,
                     46,
                     46
-                ],
-                "word": "...",
-                "is_ellipsis": true,
-                "pos_end": 13,
-                "pos": 10,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "something",
+                "pos_end": 22,
                 "runes": [
                     115,
                     111,
@@ -2351,24 +2357,18 @@
                     105,
                     110,
                     103
-                ],
-                "word": "something",
-                "is_ellipsis": false,
-                "pos_end": 23,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 23,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 23,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 24,
-                "pos": 23,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2376,6 +2376,12 @@
         "sentence": "Ellipsis ... here.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Ellipsis",
+                "pos_end": 7,
                 "runes": [
                     69,
                     108,
@@ -2385,51 +2391,45 @@
                     115,
                     105,
                     115
-                ],
-                "word": "Ellipsis",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "...",
+                "pos_end": 11,
                 "runes": [
                     46,
                     46,
                     46
-                ],
-                "word": "...",
-                "is_ellipsis": true,
-                "pos_end": 12,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 13,
+                "is_quote_end": false,
+                "word": "here",
+                "pos_end": 16,
                 "runes": [
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "here",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 13,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 17,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 17,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 18,
-                "pos": 17,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2437,6 +2437,12 @@
         "sentence": "Anoter ellipsis ...there.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Anoter",
+                "pos_end": 5,
                 "runes": [
                     65,
                     110,
@@ -2444,15 +2450,15 @@
                     116,
                     101,
                     114
-                ],
-                "word": "Anoter",
-                "is_ellipsis": false,
-                "pos_end": 6,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false,
+                "word": "ellipsis",
+                "pos_end": 14,
                 "runes": [
                     101,
                     108,
@@ -2462,52 +2468,46 @@
                     115,
                     105,
                     115
-                ],
-                "word": "ellipsis",
-                "is_ellipsis": false,
-                "pos_end": 15,
-                "pos": 7,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 16,
+                "is_quote_end": false,
+                "word": "...",
+                "pos_end": 18,
                 "runes": [
                     46,
                     46,
                     46
-                ],
-                "word": "...",
-                "is_ellipsis": true,
-                "pos_end": 19,
-                "pos": 16,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 19,
+                "is_quote_end": false,
+                "word": "there",
+                "pos_end": 23,
                 "runes": [
                     116,
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "there",
-                "is_ellipsis": false,
-                "pos_end": 24,
-                "pos": 19,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 24,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 24,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 25,
-                "pos": 24,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2515,20 +2515,26 @@
         "sentence": "Look ellipsis at the end...",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Look",
+                "pos_end": 3,
                 "runes": [
                     76,
                     111,
                     111,
                     107
-                ],
-                "word": "Look",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "ellipsis",
+                "pos_end": 12,
                 "runes": [
                     101,
                     108,
@@ -2538,64 +2544,58 @@
                     115,
                     105,
                     115
-                ],
-                "word": "ellipsis",
-                "is_ellipsis": false,
-                "pos_end": 13,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "at",
+                "pos_end": 15,
                 "runes": [
                     97,
                     116
-                ],
-                "word": "at",
-                "is_ellipsis": false,
-                "pos_end": 16,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 17,
+                "is_quote_end": false,
+                "word": "the",
+                "pos_end": 19,
                 "runes": [
                     116,
                     104,
                     101
-                ],
-                "word": "the",
-                "is_ellipsis": false,
-                "pos_end": 20,
-                "pos": 17,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false,
+                "word": "end",
+                "pos_end": 23,
                 "runes": [
                     101,
                     110,
                     100
-                ],
-                "word": "end",
-                "is_ellipsis": false,
-                "pos_end": 24,
-                "pos": 21,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": true,
+                "is_quote_start": false,
+                "pos": 24,
+                "is_quote_end": false,
+                "word": "...",
+                "pos_end": 26,
                 "runes": [
                     46,
                     46,
                     46
-                ],
-                "word": "...",
-                "is_ellipsis": true,
-                "pos_end": 27,
-                "pos": 24,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2603,6 +2603,12 @@
         "sentence": "Dobule period the end..",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Dobule",
+                "pos_end": 5,
                 "runes": [
                     68,
                     111,
@@ -2610,15 +2616,15 @@
                     117,
                     108,
                     101
-                ],
-                "word": "Dobule",
-                "is_ellipsis": false,
-                "pos_end": 6,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false,
+                "word": "period",
+                "pos_end": 12,
                 "runes": [
                     112,
                     101,
@@ -2626,41 +2632,35 @@
                     105,
                     111,
                     100
-                ],
-                "word": "period",
-                "is_ellipsis": false,
-                "pos_end": 13,
-                "pos": 7,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "the",
+                "pos_end": 16,
                 "runes": [
                     116,
                     104,
                     101
-                ],
-                "word": "the",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": false,
+                "word": "end..",
+                "pos_end": 22,
                 "runes": [
                     101,
                     110,
                     100,
                     46,
                     46
-                ],
-                "word": "end..",
-                "is_ellipsis": false,
-                "pos_end": 23,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2668,20 +2668,26 @@
         "sentence": "Here another.. double period.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Here",
+                "pos_end": 3,
                 "runes": [
                     72,
                     101,
                     114,
                     101
-                ],
-                "word": "Here",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "another..",
+                "pos_end": 13,
                 "runes": [
                     97,
                     110,
@@ -2692,15 +2698,15 @@
                     114,
                     46,
                     46
-                ],
-                "word": "another..",
-                "is_ellipsis": false,
-                "pos_end": 14,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 15,
+                "is_quote_end": false,
+                "word": "double",
+                "pos_end": 20,
                 "runes": [
                     100,
                     111,
@@ -2708,15 +2714,15 @@
                     98,
                     108,
                     101
-                ],
-                "word": "double",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 15,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false,
+                "word": "period",
+                "pos_end": 27,
                 "runes": [
                     112,
                     101,
@@ -2724,24 +2730,18 @@
                     105,
                     111,
                     100
-                ],
-                "word": "period",
-                "is_ellipsis": false,
-                "pos_end": 28,
-                "pos": 22,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 28,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 28,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 29,
-                "pos": 28,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2749,30 +2749,30 @@
         "sentence": "Hello. ",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Hello",
+                "pos_end": 4,
                 "runes": [
                     72,
                     101,
                     108,
                     108,
                     111
-                ],
-                "word": "Hello",
-                "is_ellipsis": false,
-                "pos_end": 5,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 5,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 6,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2780,38 +2780,38 @@
         "sentence": "Hi.}",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Hi",
+                "pos_end": 1,
                 "runes": [
                     72,
                     105
-                ],
-                "word": "Hi",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 2,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 2,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false,
+                "word": "}",
+                "pos_end": 3,
                 "runes": [
                     125
-                ],
-                "word": "}",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 3,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -2819,40 +2819,40 @@
         "sentence": "Buy.\"",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Buy",
+                "pos_end": 2,
                 "runes": [
                     66,
                     117,
                     121
-                ],
-                "word": "Buy",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 3,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 3,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 4,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 4,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 5,
-                "pos": 4,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             }
         ]
     },
@@ -2860,54 +2860,54 @@
         "sentence": "\"Ho-Ho.\"",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "``",
+                "pos_end": 0,
                 "runes": [
                     96,
                     96
-                ],
-                "word": "``",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": true,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false,
+                "word": "Ho-Ho",
+                "pos_end": 5,
                 "runes": [
                     72,
                     111,
                     45,
                     72,
                     111
-                ],
-                "word": "Ho-Ho",
-                "is_ellipsis": false,
-                "pos_end": 6,
-                "pos": 1,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 6,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 6,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 7,
-                "pos": 6,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 7,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 7,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             }
         ]
     },
@@ -2915,140 +2915,140 @@
         "sentence": "\"(Ooops)Hey there!\" I said.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "``",
+                "pos_end": 0,
                 "runes": [
                     96,
                     96
-                ],
-                "word": "``",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": true,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false,
+                "word": "(",
+                "pos_end": 1,
                 "runes": [
                     40
-                ],
-                "word": "(",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 1,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false,
+                "word": "Ooops",
+                "pos_end": 6,
                 "runes": [
                     79,
                     111,
                     111,
                     112,
                     115
-                ],
-                "word": "Ooops",
-                "is_ellipsis": false,
-                "pos_end": 7,
-                "pos": 2,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 7,
+                "is_quote_end": false,
+                "word": ")",
+                "pos_end": 7,
                 "runes": [
                     41
-                ],
-                "word": ")",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 7,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 8,
+                "is_quote_end": false,
+                "word": "Hey",
+                "pos_end": 10,
                 "runes": [
                     72,
                     101,
                     121
-                ],
-                "word": "Hey",
-                "is_ellipsis": false,
-                "pos_end": 11,
-                "pos": 8,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 12,
+                "is_quote_end": false,
+                "word": "there",
+                "pos_end": 16,
                 "runes": [
                     116,
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "there",
-                "is_ellipsis": false,
-                "pos_end": 17,
-                "pos": 12,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 17,
+                "is_quote_end": false,
+                "word": "!",
+                "pos_end": 17,
                 "runes": [
                     33
-                ],
-                "word": "!",
-                "is_ellipsis": false,
-                "pos_end": 18,
-                "pos": 17,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 18,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 18,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 19,
-                "pos": 18,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false,
+                "word": "I",
+                "pos_end": 20,
                 "runes": [
                     73
-                ],
-                "word": "I",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 20,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 22,
+                "is_quote_end": false,
+                "word": "said",
+                "pos_end": 25,
                 "runes": [
                     115,
                     97,
                     105,
                     100
-                ],
-                "word": "said",
-                "is_ellipsis": false,
-                "pos_end": 26,
-                "pos": 22,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 26,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 26,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 27,
-                "pos": 26,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3056,73 +3056,79 @@
         "sentence": "What does the term \"coherence\" maen?",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "What",
+                "pos_end": 3,
                 "runes": [
                     87,
                     104,
                     97,
                     116
-                ],
-                "word": "What",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 5,
+                "is_quote_end": false,
+                "word": "does",
+                "pos_end": 8,
                 "runes": [
                     100,
                     111,
                     101,
                     115
-                ],
-                "word": "does",
-                "is_ellipsis": false,
-                "pos_end": 9,
-                "pos": 5,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 10,
+                "is_quote_end": false,
+                "word": "the",
+                "pos_end": 12,
                 "runes": [
                     116,
                     104,
                     101
-                ],
-                "word": "the",
-                "is_ellipsis": false,
-                "pos_end": 13,
-                "pos": 10,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "term",
+                "pos_end": 17,
                 "runes": [
                     116,
                     101,
                     114,
                     109
-                ],
-                "word": "term",
-                "is_ellipsis": false,
-                "pos_end": 18,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 19,
+                "is_quote_end": false,
+                "word": "``",
+                "pos_end": 19,
                 "runes": [
                     96,
                     96
-                ],
-                "word": "``",
-                "is_ellipsis": false,
-                "pos_end": 20,
-                "pos": 19,
-                "is_quote_start": true,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 20,
+                "is_quote_end": false,
+                "word": "coherence",
+                "pos_end": 28,
                 "runes": [
                     99,
                     111,
@@ -3133,50 +3139,44 @@
                     110,
                     99,
                     101
-                ],
-                "word": "coherence",
-                "is_ellipsis": false,
-                "pos_end": 29,
-                "pos": 20,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 29,
+                "is_quote_end": true,
+                "word": "''",
+                "pos_end": 29,
                 "runes": [
                     39,
                     39
-                ],
-                "word": "''",
-                "is_ellipsis": false,
-                "pos_end": 30,
-                "pos": 29,
-                "is_quote_start": false,
-                "is_quote_end": true
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 31,
+                "is_quote_end": false,
+                "word": "maen",
+                "pos_end": 34,
                 "runes": [
                     109,
                     97,
                     101,
                     110
-                ],
-                "word": "maen",
-                "is_ellipsis": false,
-                "pos_end": 35,
-                "pos": 31,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 35,
+                "is_quote_end": false,
+                "word": "?",
+                "pos_end": 35,
                 "runes": [
                     63
-                ],
-                "word": "?",
-                "is_ellipsis": false,
-                "pos_end": 36,
-                "pos": 35,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3184,15 +3184,15 @@
         "sentence": "'",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "'",
+                "pos_end": 0,
                 "runes": [
                     39
-                ],
-                "word": "'",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3200,6 +3200,12 @@
         "sentence": "Apostrohe here' again.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Apostrohe",
+                "pos_end": 8,
                 "runes": [
                     65,
                     112,
@@ -3210,64 +3216,58 @@
                     111,
                     104,
                     101
-                ],
-                "word": "Apostrohe",
-                "is_ellipsis": false,
-                "pos_end": 9,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 10,
+                "is_quote_end": false,
+                "word": "here",
+                "pos_end": 13,
                 "runes": [
                     104,
                     101,
                     114,
                     101
-                ],
-                "word": "here",
-                "is_ellipsis": false,
-                "pos_end": 14,
-                "pos": 10,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "'",
+                "pos_end": 14,
                 "runes": [
                     39
-                ],
-                "word": "'",
-                "is_ellipsis": false,
-                "pos_end": 15,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 16,
+                "is_quote_end": false,
+                "word": "again",
+                "pos_end": 20,
                 "runes": [
                     97,
                     103,
                     97,
                     105,
                     110
-                ],
-                "word": "again",
-                "is_ellipsis": false,
-                "pos_end": 21,
-                "pos": 16,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 21,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 21,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 22,
-                "pos": 21,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3275,6 +3275,12 @@
         "sentence": "Sentence with newline.\\n",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "Sentence",
+                "pos_end": 7,
                 "runes": [
                     83,
                     101,
@@ -3284,29 +3290,29 @@
                     110,
                     99,
                     101
-                ],
-                "word": "Sentence",
-                "is_ellipsis": false,
-                "pos_end": 8,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 9,
+                "is_quote_end": false,
+                "word": "with",
+                "pos_end": 12,
                 "runes": [
                     119,
                     105,
                     116,
                     104
-                ],
-                "word": "with",
-                "is_ellipsis": false,
-                "pos_end": 13,
-                "pos": 9,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 14,
+                "is_quote_end": false,
+                "word": "newline.\\n",
+                "pos_end": 23,
                 "runes": [
                     110,
                     101,
@@ -3318,13 +3324,7 @@
                     46,
                     92,
                     110
-                ],
-                "word": "newline.\\n",
-                "is_ellipsis": false,
-                "pos_end": 24,
-                "pos": 14,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3332,15 +3332,15 @@
         "sentence": "A",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "A",
+                "pos_end": 0,
                 "runes": [
                     65
-                ],
-                "word": "A",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3348,26 +3348,26 @@
         "sentence": "A!",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "A",
+                "pos_end": 0,
                 "runes": [
                     65
-                ],
-                "word": "A",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 1,
+                "is_quote_end": false,
+                "word": "!",
+                "pos_end": 1,
                 "runes": [
                     33
-                ],
-                "word": "!",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 1,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3375,28 +3375,28 @@
         "sentence": "..A!",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "..A",
+                "pos_end": 2,
                 "runes": [
                     46,
                     46,
                     65
-                ],
-                "word": "..A",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false,
+                "word": "!",
+                "pos_end": 3,
                 "runes": [
                     33
-                ],
-                "word": "!",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 3,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3404,27 +3404,27 @@
         "sentence": ".A.",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": ".A",
+                "pos_end": 1,
                 "runes": [
                     46,
                     65
-                ],
-                "word": ".A",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 2,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 2,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 2,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3432,15 +3432,15 @@
         "sentence": ".",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": ".",
+                "pos_end": 0,
                 "runes": [
                     46
-                ],
-                "word": ".",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3448,15 +3448,15 @@
         "sentence": "{",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "{",
+                "pos_end": 0,
                 "runes": [
                     123
-                ],
-                "word": "{",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3464,15 +3464,15 @@
         "sentence": "}",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "}",
+                "pos_end": 0,
                 "runes": [
                     125
-                ],
-                "word": "}",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3480,16 +3480,16 @@
         "sentence": "--",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "--",
+                "pos_end": 1,
                 "runes": [
                     45,
                     45
-                ],
-                "word": "--",
-                "is_ellipsis": false,
-                "pos_end": 2,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3497,16 +3497,16 @@
         "sentence": "\"",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "``",
+                "pos_end": 0,
                 "runes": [
                     96,
                     96
-                ],
-                "word": "``",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": true,
-                "is_quote_end": false
+                ]
             }
         ]
     },
@@ -3514,38 +3514,38 @@
         "sentence": "- \"=",
         "tokens": [
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 0,
+                "is_quote_end": false,
+                "word": "-",
+                "pos_end": 0,
                 "runes": [
                     45
-                ],
-                "word": "-",
-                "is_ellipsis": false,
-                "pos_end": 1,
-                "pos": 0,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": true,
+                "pos": 2,
+                "is_quote_end": false,
+                "word": "``",
+                "pos_end": 2,
                 "runes": [
                     96,
                     96
-                ],
-                "word": "``",
-                "is_ellipsis": false,
-                "pos_end": 3,
-                "pos": 2,
-                "is_quote_start": true,
-                "is_quote_end": false
+                ]
             },
             {
+                "is_ellipsis": false,
+                "is_quote_start": false,
+                "pos": 3,
+                "is_quote_end": false,
+                "word": "=",
+                "pos_end": 3,
                 "runes": [
                     61
-                ],
-                "word": "=",
-                "is_ellipsis": false,
-                "pos_end": 4,
-                "pos": 3,
-                "is_quote_start": false,
-                "is_quote_end": false
+                ]
             }
         ]
     }
