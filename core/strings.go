@@ -21,7 +21,7 @@
 //   newS, cnt := ustr.Replace(re, "Ё")  // cnt == 4, newS.String() == "thЁs Ёs unЁcode strЁng: こんにちは""
 //
 
-package strings
+package core
 
 import (
 	"regexp"
