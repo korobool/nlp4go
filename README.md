@@ -29,8 +29,8 @@ Things that can be executed in parallel mode (like POS tagging for independent s
 * NER support
 * Parsing 
  * We need a complete rules set for syntax parsing
- * Syntax Parsing
- * Dependency Parsing
+ * Syntax Parsing // ShiftReudce
+ * Dependency Parsing // Port Hannibal's Cython version
 * WordNet interface
 
 ## Repository structure should be idiomatically similar to following tree:
