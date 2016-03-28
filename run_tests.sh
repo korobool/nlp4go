@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirs=(./core ./tokenize ./ml ./pos ./utils)
+dirs=(./core ./tokenize ./ml ./pos ./utils ./parse/*)
 echo "mode: set" > coverage.out
 for Dir in ${dirs[*]};
 do
