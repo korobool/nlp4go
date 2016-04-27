@@ -24,7 +24,7 @@ func NewOntonotesParser(path string) (*OntonotesParser, error) {
 	return &OntonotesParser{
 		OntonotesPath: path,
 		reSpace:       regexp.MustCompile(`\s+`),
-		reWordTag:     regexp.MustCompile(`\(([^\s\(\)]+) ([^\s\(\)]+)\)`),
+		reWordTag:     regexp.MustCompile(`\(([^\s\(\)]+) ([^\s]+)\)`),
 	}, nil
 }
 func (p *OntonotesParser) ParseToPath(outPath string) error {
