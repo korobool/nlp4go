@@ -1,5 +1,10 @@
 package ml
 
+import (
+	"math"
+	//"strings"
+)
+
 type FeatureClass struct {
 	f string
 	c string
@@ -10,6 +15,7 @@ type AveragedPerceptron struct {
 	totals  map[FeatureClass]float64
 	tstamps map[FeatureClass]int
 	Weights map[string]map[string]float64
+	Classes map[string]struct{}
 }
 
 func NewAveragedPerceptron() *AveragedPerceptron {
@@ -17,6 +23,7 @@ func NewAveragedPerceptron() *AveragedPerceptron {
 		totals:  make(map[FeatureClass]float64),
 		tstamps: make(map[FeatureClass]int),
 		Weights: make(map[string]map[string]float64),
+		Classes: make(map[string]struct{}),
 	}
 }
 
@@ -89,8 +96,18 @@ func (ap *AveragedPerceptron) updateFeature(class, feature string, weight, value
 
 func (ap *AveragedPerceptron) maxScore(m map[string]float64) string {
 	var maxKey string
-	var maxVal float64
+	var maxVal float64 = math.SmallestNonzeroFloat64
 
+	//for k, _ := range ap.Classes {
+	//	v, ok := m[k]
+	//	if !ok {
+	//		v = 0.0
+	//	}
+	//	if v > maxVal || (v == maxVal && strings.Compare(k, maxKey) > 0) {
+	//		maxKey = k
+	//		maxVal = v
+	//	}
+	//}
 	for k, v := range m {
 		switch {
 		case v > maxVal:

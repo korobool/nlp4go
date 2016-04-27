@@ -18,13 +18,15 @@ type OntonotesParser struct {
 	OntonotesPath string
 	reSpace       *regexp.Regexp
 	reWordTag     *regexp.Regexp
+	cache         map[string]struct{}
 }
 
 func NewOntonotesParser(path string) (*OntonotesParser, error) {
 	return &OntonotesParser{
 		OntonotesPath: path,
 		reSpace:       regexp.MustCompile(`\s+`),
-		reWordTag:     regexp.MustCompile(`\(([^\s\(\)]+) ([^\s]+)\)`),
+		reWordTag:     regexp.MustCompile(`\(([^\s\(\)]+) ([^\s\)]+|\))\)`),
+		cache:         make(map[string]struct{}),
 	}, nil
 }
 func (p *OntonotesParser) ParseToPath(outPath string) error {
@@ -122,7 +124,11 @@ func (p *OntonotesParser) ParseFileToWriter(reader io.Reader, writer *bufio.Writ
 			str := fmt.Sprintf("(%s %s)", pair[1], pair[2])
 			byteStr = append(byteStr, []byte(str)...)
 		}
-		fmt.Fprintln(writer, string(byteStr))
+		str := string(byteStr)
+		if _, ok := p.cache[str]; !ok {
+			fmt.Fprintln(writer, str)
+			p.cache[str] = struct{}{}
+		}
 	}
 
 	if err := p.parseFile(reader, handlerFn); err != nil {

@@ -90,6 +90,7 @@ func TestPoSTaggerQuality(t *testing.T) {
 	defer validateFile.Close()
 
 	totalTags := 0
+	totalLines := 0
 	guessedTags := 0
 
 	scanner := bufio.NewScanner(validateFile)
@@ -97,6 +98,8 @@ func TestPoSTaggerQuality(t *testing.T) {
 
 		line := scanner.Text()
 		wt := parseWordsTags(line)
+		//t.Logf("WORDS %d: >> %v <<", len(wt.Words), wt.Words)
+		//t.Logf("TAGS %d: >> %v <<", len(wt.Tags), wt.Tags)
 
 		tokens, err := posTagger.Tag(strings.Join(wt.Words, " "))
 		if err != nil {
@@ -114,11 +117,12 @@ func TestPoSTaggerQuality(t *testing.T) {
 				guessedTags += 1
 			}
 		}
+		totalLines++
 	}
 	if err := scanner.Err(); err != nil {
 		t.Fatalf("Error while reading validation file: %v", err)
 	}
-	t.Logf("Total: %d, guessed: %d, rate: %.2f", totalTags, guessedTags, float64(100*guessedTags)/float64(totalTags))
+	t.Logf("Lines: %d Total tokens: %d, guessed: %d, rate: %.2f", totalLines, totalTags, guessedTags, float64(100*guessedTags)/float64(totalTags))
 
 }
 

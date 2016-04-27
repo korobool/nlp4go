@@ -221,6 +221,7 @@ func (t *PerceptronTagger) LoadModel(filename string) error {
 	t.Model.Weights = dump["weights"].(map[string]map[string]float64)
 	t.TagMap = dump["tagmap"].(map[string]string)
 	t.Classes = dump["classes"].(map[string]struct{})
+	t.Model.Classes = dump["classes"].(map[string]struct{})
 
 	return nil
 }
