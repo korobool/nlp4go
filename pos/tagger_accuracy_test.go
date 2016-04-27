@@ -17,6 +17,7 @@ import (
 	"regexp"
 	"strings"
 	"testing"
+	"math/rand"
 )
 
 var (
@@ -229,8 +230,15 @@ func splitCorpus(tmpPath, parsedFileName, validateFileName, trainFileName string
 	trainWr := bufio.NewWriter(trainFile)
 	defer trainWr.Flush()
 
+	randomIds := rand.Perm(parsedLines)
+	validateLines := make(map[int]struct{})
+	for _, id := range randomIds[:(parsedLines/10)] {
+		validateLines[id] = struct{}{}
+	}
+
 	for line := 0; scanner.Scan(); line++ {
-		if line <= parsedLines/10 {
+		if _, ok := validateLines[line]; ok {
+		// if line <= parsedLines/10 {
 			fmt.Fprintln(validateWr, scanner.Text())
 		} else {
 			fmt.Fprintln(trainWr, scanner.Text())

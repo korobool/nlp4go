@@ -1,8 +1,10 @@
 package tokenize
 
 import (
-	"github.com/neurosnap/sentences"
-	"github.com/neurosnap/sentences/english"
+	"gopkg.in/neurosnap/sentences.v1"
+	//"github.com/neurosnap/sentences"
+	//"github.com/neurosnap/sentences/english"
+	"gopkg.in/neurosnap/sentences.v1/english"
 )
 
 // Stub for PunktTokenizer. Temporarly implemented
