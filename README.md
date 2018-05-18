@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/korobool/nlp4go](https://badges.gitter.im/korobool/nlp4go.svg)](https://gitter.im/korobool/nlp4go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/korobool/nlp4go.svg?branch=master)](https://travis-ci.org/korobool/nlp4go) [![Coverage Status](https://coveralls.io/repos/github/korobool/nlp4go/badge.svg?branch=master)](https://coveralls.io/github/korobool/nlp4go?branch=master)
 
-*Note: This solution is not under development anymore.*
+*Note: This solution is not under development anymore. Further development was done under NDA and couldn't be published*
 
 The idea of nlp4go is to provide a fast go-lang based nlp toolkit for researchers and developers which provides the most commonly used features of NLTK
 and other NPL toolkits, but with production-ready computational performance. 
